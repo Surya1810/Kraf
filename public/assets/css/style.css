@@ -124,8 +124,23 @@ body {
 .navbar-work .nav .nav-link {
     color: black;
 }
+.work {
+    position: relative;
+}
+.work-padding {
+    padding: 10%;
+}
+.kraf-center {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
 
-#myCarousel {
+/* #myCarousel {
     margin-top: 50px;
 }
 
@@ -175,7 +190,7 @@ body {
     .carousel-item-prev:not(.carousel-item-end) {
         transform: translateX(-25%) !important;
     }
-}
+} */
 
 .contact {
     /* min-height: 100vh; */

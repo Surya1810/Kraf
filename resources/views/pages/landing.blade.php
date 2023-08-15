@@ -151,7 +151,7 @@
         <div class="container h-100 p-5">
             <div class="row align-items-center h-100">
                 <div class="col-12">
-                    <h1 class="display-3 fw-bold">About Us</h1>
+                    <h1 class="display-5 fw-bold">About Us</h1>
                     <p class="text-secondary">The Story</p>
                     <hr>
                     <h2 class="about-us-text">Kraf. adalah sebuah perusahaan agensi kreatif yang inovatif dan dinamis,
@@ -177,7 +177,7 @@
     <div class="team" id="team">
         <div class="container h-100">
             <div class="row align-items-center h-100">
-                <h1 class="display-3 fw-bold mb-3">Meet the Team</h1>
+                <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
                 <section id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-interval="false">
                     <div class="carousel-indicators">
@@ -190,113 +190,113 @@
                     </div>
 
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active px-5">
                             <div class="row">
-                                <div class="col-6 col-md-3">
-                                    <div class="card bg-dark border-0 h-100 my-3">
+                                <div class="col-6 col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Director & 3D Architectur</p>
-                                            <p class="fs-3">Alfazri</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Director & 3D Architectur</p>
+                                            <p style="font-size: 3vh">Alfazri</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Art & Creative</p>
-                                            <p class="fs-3">Encep Zainul</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Art & Creative</p>
+                                            <p style="font-size: 3vh">Encep Zainul</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Video & Photography</p>
-                                            <p class="fs-3">Aris Resmono</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Video & Photography</p>
+                                            <p style="font-size: 3vh">Aris Resmono</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Graphic Designer</p>
-                                            <p class="fs-3">Thio Agus</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Graphic Designer</p>
+                                            <p style="font-size: 3vh">Thio Agus</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item px-5">
                             <div class="row">
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Animator</p>
-                                            <p class="fs-3">Rio Tubagus</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Animator</p>
+                                            <p style="font-size: 3vh">Rio Tubagus</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Illustrator</p>
-                                            <p class="fs-3">Adil Poetra</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Illustrator</p>
+                                            <p style="font-size: 3vh">Adil Poetra</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">IT Developer</p>
-                                            <p class="fs-3">Surya Dinarta</p>
+                                            <p class="text-secondary" style="font-size: 2vh">IT Developer</p>
+                                            <p style="font-size: 3vh">Surya Dinarta</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Content Creator</p>
-                                            <p class="fs-3">Fadjar Maulana</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Content Creator</p>
+                                            <p style="font-size: 3vh">Fadjar Maulana</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item px-5">
                             <div class="row">
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/hanafi.jpeg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Social Media Specialist</p>
-                                            <p class="fs-3">Hanafi Maulana</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Social Media Specialist</p>
+                                            <p style="font-size: 3vh">Hanafi Maulana</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-3">
+                                <div class="col-6 col-md-3 mb-3">
                                     <div class="card bg-dark border-0 h-100">
                                         <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary">Account Executive</p>
-                                            <p class="fs-3">Muhammad Ilham</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Account Executive</p>
+                                            <p style="font-size: 3vh">Muhammad Ilham</p>
                                         </div>
                                     </div>
                                 </div>
@@ -322,7 +322,7 @@
 
     <!-- Our Services -->
     <div class="container" id="services">
-        <h1 class="display-3 fw-bold">Our Services</h1>
+        <h1 class="display-5 fw-bold">Our Services</h1>
 
         <div class="row h-100">
             {{-- <div class="d-flex align-items-start">
@@ -373,21 +373,22 @@
 
     <!-- Our Works -->
     <div class="container" id="works">
-        <h1 class="display-3 fw-bold">Our Works</h1>
+        <h1 class="display-5 fw-bold">Our Works</h1>
         <nav class="navbar-work">
             <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                    type="button" role="tab" aria-controls="nav-home" aria-selected="true">Design</button>
-                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                    type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Brand</button>
-                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                    type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Research</button>
+                <button class="nav-link active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1"
+                    type="button" role="tab" aria-controls="nav-1" aria-selected="true">Design</button>
+                <button class="nav-link" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button"
+                    role="tab" aria-controls="nav-2" aria-selected="false">Brand</button>
+                <button class="nav-link" id="nav-3-tab" data-bs-toggle="tab" data-bs-target="#nav-3" type="button"
+                    role="tab" aria-controls="nav-3" aria-selected="false">Research</button>
             </div>
         </nav>
         <div class="tab-content my-3" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+            <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab"
                 tabindex="0">
-                <div class="row g-0 ">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
                     <div class="col-6">
                         <div class="card border-0">
                             <div class="ratio ratio-1x1">
@@ -395,34 +396,34 @@
                                     alt="Project">
                             </div>
                             <div class="card-img-overlay">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 work-padding">
                         <div class="card border-0">
                             <div class="ratio ratio-1x1">
                                 <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
                                     alt="Project">
                             </div>
                             <div class="card-img-overlay">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 work-padding">
                         <div class="card border-0">
                             <div class="ratio ratio-1x1">
                                 <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
                                     alt="Project">
                             </div>
                             <div class="card-img-overlay">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
@@ -430,38 +431,146 @@
                     <div class="col-6">
                         <div class="card border-0">
                             <div class="ratio ratio-1x1">
-                                <img class="card-img-top" src="{{ asset('assets/Picture/port-team-img6.jpg') }}"
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                     alt="Project">
                             </div>
                             <div class="card-img-overlay">
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
-                tabindex="0">
+            <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab"
-                tabindex="0">
+            <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- Carousel -->
-    <div class="latest">
+    {{-- <div class="latest">
         <div class="container h-100 p-5">
             <div class="row align-items-center h-100">
                 <div class="col-12">
-                    <h1 class="display-3 fw-bold mb-4 text-white">Latest Projects</h1>
+                    <h1 class="display-5 fw-bold mb-4 text-white">Latest Projects</h1>
 
                     <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
                         <div class="carousel-inner carousel-works w-100">
                             <div class="carousel-item carousel-item-works active">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail"
                                             src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}">
@@ -469,7 +578,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail"
                                             src="{{ asset('assets/Picture/h1-port-slider-image1.jpg') }}">
@@ -477,7 +586,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail"
                                             src="{{ asset('assets/Picture/portfolio-home-img6.jpg') }}">
@@ -485,7 +594,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail"
                                             src="{{ asset('assets/Picture/portfolio-home-img7.jpg') }}">
@@ -493,21 +602,21 @@
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail" src="{{ asset('assets/Picture/h1-img1 (1).jpg') }}">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail" src="{{ asset('assets/Picture/showcase-img2.jpg') }}">
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail"
                                             src="{{ asset('assets/Picture/port-team-img7.jpg') }}">
@@ -515,7 +624,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item carousel-item-works">
-                                <div class="col-md-3 px-3">
+                                <div class="col-md-4 px-3">
                                     <div class="ratio ratio-1x1">
                                         <img class="img-thumbnail" src="{{ asset('assets/Picture/h1-img2.jpg') }}">
                                     </div>
@@ -536,7 +645,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="row h-100 text-center display-1 justify-content-center g-0 mb-5 mx-1">
         <div class="col">
@@ -572,7 +681,7 @@
         <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="col-md-6">
-                    <h1 class="display-3 fw-bold">Get in Touch!</h1>
+                    <h1 class="display-5 fw-bold">Get in Touch!</h1>
                     <p>Kami selalu menyukai percakapan yang hangat. Kapan pun Anda ingin, kami akan dengan
                         senang
                         hati
@@ -595,6 +704,15 @@
                 </div>
                 <div class="col-md-6">
                     <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="name" placeholder="Email">
+                        </div>
+                        <div class="mb-5">
+                            <textarea class="form-control" placeholder="Your Message" id="message" style="height: 250px"></textarea>
+                        </div>
                         <button type="submit" class="btn btn-lg btn-dark px-4 py3">Send message</button>
                     </form>
                 </div>
@@ -605,13 +723,13 @@
     <!-- Blog -->
     <div class="container h-100 mb-5" id="blogs">
         <div class="row h-100">
-            <h1 class="display-3 fw-bold mb-4">Latest Blog Post</h1>
+            <h1 class="display-5 fw-bold mb-4">Latest Blog Post</h1>
             <div class="col-6 col-md-3 mb-3">
                 <div class="card text-bg-dark rounded-4 shadow-lg border-0">
                     <img class="card-img" src="{{ asset('assets/Picture/blog-img-011.jpg') }}" alt="Card image">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
-                        <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Design</h3>
-                        <p class="card-text">June 9, 2021 / Design</p>
+                        <h2 class="pt-5 mt-5 mb-1 lh-1 fw-bold">Design</h2>
+                        <p style="font-size: 2vh">June 9, 2021 / Design</p>
                     </div>
                 </div>
             </div>
@@ -619,8 +737,8 @@
                 <div class="card text-bg-dark rounded-4 shadow-lg border-0">
                     <img class="card-img" src="{{ asset('assets/Picture/blog-img-012.jpg') }}" alt="Card image">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
-                        <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Quest</h3>
-                        <p class="card-text">June 9, 2021 / Design</p>
+                        <h2 class="pt-5 mt-5 mb-1 lh-1 fw-bold">Quest</h2>
+                        <p style="font-size: 2vh">June 9, 2021 / Design</p>
                     </div>
                 </div>
             </div>
@@ -628,8 +746,8 @@
                 <div class="card text-bg-dark rounded-4 shadow-lg border-0">
                     <img class="card-img" src="{{ asset('assets/Picture/blog-img-013.jpg') }}" alt="Card image">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
-                        <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Visual</h3>
-                        <p class="card-text">June 9, 2021 / Design</p>
+                        <h2 class="pt-5 mt-5 mb-1 lh-1 fw-bold">Visual</h2>
+                        <p style="font-size: 2vh">June 9, 2021 / Design</p>
                     </div>
                 </div>
             </div>
@@ -637,8 +755,8 @@
                 <div class="card text-bg-dark rounded-4 shadow-lg border-0">
                     <img class="card-img" src="{{ asset('assets/Picture/blog-img-5.jpg') }}" alt="Card image">
                     <div class="card-img-overlay d-flex flex-column justify-content-end">
-                        <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Digital</h3>
-                        <p class="card-text">June 9, 2021 / Design</p>
+                        <h2 class="pt-5 mt-5 mb-1 lh-1 fw-bold">Digital</h2>
+                        <p style="font-size: 2vh">June 9, 2021 / Design</p>
                     </div>
                 </div>
             </div>
@@ -716,7 +834,7 @@
             </div>
 
             <!-- Social Icons -->
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 mt-4 border-top">
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
                 <p>&copy; 2023 Kraf. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
                     <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/madebykraf"><i
