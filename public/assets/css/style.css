@@ -1,9 +1,12 @@
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5.5rem;
+    /* scroll-padding-top: 5.5rem; */
 }
 body {
     font-family: "Syne", sans-serif;
+}
+.padding-kraf {
+    padding-top: 5.5rem;
 }
 /* html,
 body {
@@ -53,9 +56,13 @@ body {
         border-radius: 50%;
         box-shadow: 2px 2px 3px #000;
     }
+
+    .navbar-services {
+        margin-right: 3vh;
+    }
 }
 
-/* Navbar */
+/* NAVBAR */
 .navbar {
     transition: all 0.5s;
 }
@@ -70,8 +77,8 @@ body {
 
 .navbar-nav .nav-item .nav-link {
     font-size: 1rem;
-    margin-left: 1.8rem;
-    margin-right: 1.8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
     color: white;
 }
 
@@ -83,7 +90,7 @@ body {
     color: #ff5700;
 }
 
-/* Carousel */
+/* HERO CAROUSEL */
 .carousel-main {
     height: 100vh;
     width: 100vw;
@@ -102,15 +109,32 @@ body {
     object-fit: cover;
 }
 
-/* About us */
-.about-us,
-.latest {
+/* ABOUT US */
+.about-us {
     background-color: black;
     height: 100vh;
     width: 100vw;
 }
 
-/* Team */
+/* SERVICE */
+#services {
+    height: 60vh;
+    width: 100vw;
+}
+.navbar-services .nav-link {
+    color: black;
+}
+
+.navbar-services .nav-link:hover {
+    color: #ff5700;
+}
+
+.nav-pills .nav-link.active {
+    background-color: black;
+    color: #ff5700;
+}
+
+/* MEET THE TEAM */
 /* .team {
     height: 100vh;
     width: 100vw;
@@ -120,10 +144,11 @@ body {
     width: 100vw;
 } */
 
-/* Works */
+/* WORKS */
 .navbar-work .nav .nav-link {
     color: black;
 }
+
 .work {
     position: relative;
 }
@@ -140,58 +165,51 @@ body {
     z-index: 1;
 }
 
-/* #myCarousel {
-    margin-top: 50px;
+.latest {
+    background-image: url(../Picture/6222603.jpg);
+    height: 100vh;
+    width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
-    #myCarousel .carousel-inner .carousel-item > div {
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
         display: none;
     }
-
-    #myCarousel .carousel-inner .carousel-item > div:first-child {
+    .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
 }
 
-#myCarousel .carousel-inner .carousel-item.active,
-#myCarousel .carousel-inner .carousel-item-start,
-#myCarousel .carousel-inner .carousel-item-next,
-#myCarousel .carousel-inner .carousel-item-prev {
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
     display: flex;
 }
 
+/* medium and up screens */
 @media (min-width: 768px) {
-    #myCarousel .carousel-inner .carousel-item-right.active,
-    #myCarousel .carousel-inner .carousel-item-next,
-    .carousel-item-next:not(.carousel-item-start) {
-        transform: translateX(25%) !important;
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
     }
 
-    #myCarousel .carousel-inner .carousel-item-right.active,
-    .carousel-item-next:not(.carousel-item-start),
-    .active.carousel-item-start {
-        transform: translateX(25%) !important;
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
     }
+}
 
-    #myCarousel .carousel-inner .carousel-item-left.active,
-    .carousel-item-prev:not(.carousel-item-end),
-    .active.carousel-item-start,
-    .carousel-item-prev:not(.carousel-item-end) {
-        transform: translateX(-25%) !important;
-    }
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
 
-    .carousel-item-next.carousel-item-start,
-    .active.carousel-item-end {
-        transform: translateX(0) !important;
-    }
-
-    #myCarousel .carousel-inner .carousel-item-prev,
-    .carousel-item-prev:not(.carousel-item-end) {
-        transform: translateX(-25%) !important;
-    }
-} */
-
+/* CONTACT */
 .contact {
     /* min-height: 100vh; */
     width: 100vw;
@@ -216,6 +234,23 @@ iframe {
     font-weight: bold;
 }
 
+/* RESPONSIVE */
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .navbar-services {
+        margin-right: 10rem;
+    }
+
+    /* Team */
+    .carouselTeam .carousel-control-prev {
+        padding-right: 10rem;
+    }
+
+    .carouselTeam .carousel-control-next {
+        padding-left: 10rem;
+    }
+}
+
 /* If the screen size is smaller than 1200px, set the font-size to 80px */
 @media (max-width: 1199.98px) {
     .responsive-font {
@@ -226,17 +261,8 @@ iframe {
     }
 }
 
-/* FONT SIZE RESPONSIVE */
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-/* @media screen and (min-width: 601px) {
-    .font-responsive {
-        font-size: 80px;
-    }
-} */
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-/* @media screen and (max-width: 600px) {
-    .font-responsive {
-        font-size: 30px;
-    }
-} */
+/* FORM CONTROL FOCUS */
+.form-control:focus {
+    border-color: #ff5700;
+    box-shadow: 0 0 0 0.2rem rgba(255, 87, 0, 0.25);
+}
