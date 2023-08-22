@@ -8,6 +8,25 @@ body {
 .padding-kraf {
     padding-top: 5.5rem;
 }
+.padding-bottom {
+    padding-bottom: 5.5rem;
+}
+
+.judul {
+    font-size: 10vh;
+    margin-bottom: 2rem;
+}
+@media (max-width: 1199.98px) {
+    .judul {
+        font-size: 10vh;
+        margin-bottom: 2rem;
+        display: flex;
+        height: 100%;
+        align-items: end;
+        justify-content: start;
+        text-align: left;
+    }
+}
 /* html,
 body {
     max-width: 100%;
@@ -118,7 +137,7 @@ body {
 
 /* SERVICE */
 #services {
-    height: 60vh;
+    height: 75vh;
     width: 100vw;
 }
 .navbar-services .nav-link {
@@ -132,6 +151,11 @@ body {
 .nav-pills .nav-link.active {
     background-color: black;
     color: #ff5700;
+}
+
+.carousel-services {
+    height: 100%;
+    width: 100%;
 }
 
 /* MEET THE TEAM */
@@ -253,6 +277,9 @@ iframe {
 
 /* If the screen size is smaller than 1200px, set the font-size to 80px */
 @media (max-width: 1199.98px) {
+    .navbar-brand img {
+        height: 30px;
+    }
     .responsive-font {
         font-size: 30px;
     }

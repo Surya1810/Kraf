@@ -74,7 +74,8 @@
                             href="https://www.facebook.com/madebykraf"><i class="fa-brands fa-facebook fa-lg"></i></a>
                     </li>
                     <li class="ms-3"><a class="link-body-emphasis text-white"
-                            href="https://www.instagram.com/madebykraf"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                            href="https://www.linkedin.com/company/madebykraf/"><i
+                                class="fa-brands fa-linkedin fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
@@ -85,7 +86,7 @@
         class="scrollspy-example" tabindex="0">
 
         <!-- Carousel -->
-        <section id="carouselMain" class="carousel slide carousel-main" data-bs-ride="carousel">
+        <section id="carouselMain" class="carousel carousel-main carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -96,11 +97,19 @@
             <div class="carousel-inner">
                 <div class="carousel-item active c-item">
                     <img src="{{ asset('assets/Picture/1.jpg') }}" class="d-block w-100 c-img" alt="slider_1">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-start text-left">
+                    <div class="carousel-caption padding-bottom">
+                        {{-- <div class="row">
+                            <div class="col-12 col-sm-12">
+                                <h1 class="judul">We work on delivering unique visual
+                                    solutions</h1><br>
+                                <a href="#" class="btn btn-lg btn-dark uppercase px-4 py-3">View More <i
+                                        class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
+                            </div>
+                        </div> --}}
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <h1 class="display-3">We work on delivering unique visual solutions</h1><br>
-                                <a href="#" class="btn btn-lg btn-dark uppercase px-5 py-4">View More <i
+                                <h1 style="font-size: 5vh">Attractive design from concept to final result</h1>
+                                <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
                         </div>
@@ -108,12 +117,13 @@
                 </div>
                 <div class="carousel-item c-item">
                     <img src="{{ asset('assets/Picture/2.jpg') }}" class="d-block w-100 c-img" alt="slider_2">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-start text-left">
+                    <div
+                        class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
 
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <h1 class="display-3">Attractive design from concept to final result</h1>
-                                <a href="#" class="btn btn btn-dark uppercase px-5 py-4">View More <i
+                                <h1 style="font-size: 5vh">Attractive design from concept to final result</h1>
+                                <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
                         </div>
@@ -121,13 +131,14 @@
                 </div>
                 <div class="carousel-item c-item">
                     <img src="{{ asset('assets/Picture/3.jpg') }}" class="d-block w-100 c-img" alt="slider_3">
-                    <div class="carousel-caption d-flex h-100 align-items-center justify-content-start text-left">
+                    <div
+                        class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
 
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <h1 class="display-3">Project tactics and strategies for all agencies
+                                <h1 style="font-size: 5vh">Project tactics and strategies for all agencies
                                 </h1>
-                                <a href="#" class="btn zbtn btn-dark uppercase px-5 py-4">View More <i
+                                <a href="#" class="btn zbtn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
                         </div>
@@ -208,7 +219,36 @@
                             </div>
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="branding_service" role="tabpanel"
-                                    aria-labelledby="branding_service-tab" tabindex="0">Jelaskan tentang branding</div>
+                                    aria-labelledby="branding_service-tab" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-3 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="design_service" role="tabpanel"
                                     aria-labelledby="design-tab_service" tabindex="0">Jelaskan tentang design</div>
                                 <div class="tab-pane fade" id="marketing_service" role="tabpanel"
@@ -604,7 +644,7 @@
 
         <!-- Carousel -->
         <div class="latest">
-            <div class="container h-100 p-5">
+            <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
                         <h1 class="display-5 fw-bold mb-4 text-white">Latest Projects</h1>
@@ -746,8 +786,9 @@
                             style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
-                        <h2>Bandung</h2>
-                        <p><i class="fa-solid fa-location-dot"></i> Jl. Cetarip Barat No.105, Kota Bandung 40233
+                        <h2>Grha PHRI Jabar</h2>
+                        <p><i class="fa-solid fa-location-dot"></i> Jl. Sukabumi No. 42, Kacapiring, Kota Bandung, Jawa
+                            Barat 40233
                         </p>
                         <p><i class="fa-solid fa-phone"></i> +62 818 21 2023</p>
                         <p><i class="fa-solid fa-envelope"></i> hi@madebykraf.com</p>
@@ -776,216 +817,211 @@
                 <div class="row align-items-center h-100">
                     <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                    {{-- <section id="carouselTeam" class="carousel carouselTeam carousel-dark slide"
-                        data-bs-interval="false">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="0" class="active"
-                                aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselTeam" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active px-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Director & 3D Architectur
-                                                </p>
-                                                <p style="font-size: 3vh">Alfazri</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Art & Creative</p>
-                                                <p style="font-size: 3vh">Encep Zainul</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Video & Photography</p>
-                                                <p style="font-size: 3vh">Aris Resmono</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Graphic Designer</p>
-                                                <p style="font-size: 3vh">Thio Agus</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item px-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Animator</p>
-                                                <p style="font-size: 3vh">Rio Tubagus</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Illustrator</p>
-                                                <p style="font-size: 3vh">Adil Poetra</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">IT Developer</p>
-                                                <p style="font-size: 3vh">Surya Dinarta</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Content Creator</p>
-                                                <p style="font-size: 3vh">Fadjar Maulana</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item px-5">
-                                <div class="row">
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/hanafi.jpeg') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Social Media Specialist
-                                                </p>
-                                                <p style="font-size: 3vh">Hanafi Maulana</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 col-md-3 mb-3">
-                                        <div class="card bg-dark border-0 h-100">
-                                            <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <p class="text-secondary" style="font-size: 2vh">Account Executive</p>
-                                                <p style="font-size: 3vh">Muhammad Ilham</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeam"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTeam"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </section> --}}
-
-                    <div id="carouselTeam" class="carousel slide carouselTeam" data-bs-ride="carousel">
+                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark" data-bs-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
-                                        <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
+                            <div class="carousel-item active">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                        <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Animator</p>
-                                            <p style="font-size: 3vh">Rio Tubagus</p>
+                                            <p class="text-secondary" style="font-size: 2vh">Director & 3D Architectur</p>
+                                            <p style="font-size: 3vh">Alfazri</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:alfazri@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
                                         <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <p class="text-secondary" style="font-size: 2vh">Art & Creative</p>
                                             <p style="font-size: 3vh">Encep Zainul</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/enzanimous"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:enza@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
                                         <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <p class="text-secondary" style="font-size: 2vh">Video & Photography</p>
                                             <p style="font-size: 3vh">Aris Resmono</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:aris@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
                                         <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <p class="text-secondary" style="font-size: 2vh">Graphic Designer</p>
                                             <p style="font-size: 3vh">Thio Agus</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/thioaguss"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:thio@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
                                         <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <p class="text-secondary" style="font-size: 2vh">Animator</p>
                                             <p style="font-size: 3vh">Rio Tubagus</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:rio@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item px-5">
-                                <div class="col-md-3 mb-3">
-                                    <div class="card bg-dark border-0 h-100">
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
                                         <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <p class="text-secondary" style="font-size: 2vh">Illustrator</p>
                                             <p style="font-size: 3vh">Adil Poetra</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:adil@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                        <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <p class="text-secondary" style="font-size: 2vh">IT Developer</p>
+                                            <p style="font-size: 3vh">Surya Dinarta</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:surya@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                        <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <p class="text-secondary" style="font-size: 2vh">Content Creator</p>
+                                            <p style="font-size: 3vh">Fadjar Maulana</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:fajar@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                        <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <p class="text-secondary" style="font-size: 2vh">Account Executive</p>
+                                            <p style="font-size: 3vh">Muhammad Ilham</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:ilham@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -1080,7 +1116,8 @@
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">Pricing</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">About</a>
@@ -1091,7 +1128,8 @@
                     <div class="col-4 col-md-2 mb-3">
                         <h5>Section</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">Home</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">Features</a>
@@ -1099,7 +1137,8 @@
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">Pricing</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">About</a>
@@ -1110,7 +1149,8 @@
                     <div class="col-4 col-md-2 mb-3">
                         <h5>Section</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">Home</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">Features</a>
@@ -1118,7 +1158,8 @@
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">Pricing</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#"
                                     class="nav-link p-0 text-body-secondary">About</a>
@@ -1131,11 +1172,13 @@
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
                     <p>&copy; 2023 Kraf. All rights reserved.</p>
                     <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/madebykraf"><i
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://www.instagram.com/madebykraf"><i
                                     class="fa-brands fa-instagram fa-lg"></i></a></li>
                         <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
                                     class="fa-brands fa-facebook fa-lg"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/madebykraf"><i
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://www.linkedin.com/company/madebykraf/"><i
                                     class="fa-brands fa-linkedin fa-lg"></i></a></li>
                     </ul>
                 </div>
@@ -1166,6 +1209,39 @@
                 navEl.classList.remove('navbar-light', 'navbar-scrolled');
                 navEl.classList.add('navbar-dark');
                 $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-light-ok.png') }}");
+            }
+        })
+
+        // services Carousel
+        let services = document.querySelectorAll('#services-carousel .carousel-item')
+
+        services.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = services[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
+            }
+        })
+        // services Carousel
+        let services2 = document.querySelectorAll('#services-carousel-2 .carousel-item')
+
+        services.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = services2[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
             }
         })
 
