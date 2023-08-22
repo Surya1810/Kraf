@@ -1190,6 +1190,11 @@
     <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
         <i class="fa-solid fa-arrow-up fa-2xl text-center" style="color: #ff5700"></i>
     </button>
+    <!-- Whatsapp button -->
+    <button class="btn btn-floating btn-lg" id="whatsapp">
+        <a href="https://wa.me/62818212023" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-center"
+                style="color: #fff;margin-top: 10px;"></i></a>
+    </button>
 @endsection
 
 @push('scripts')
