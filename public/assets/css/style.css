@@ -9,22 +9,14 @@ body {
     padding-top: 5.5rem;
 }
 .padding-bottom {
-    padding-bottom: 5.5rem;
+    padding-bottom: 6rem;
 }
-
 .judul {
-    font-size: 10vh;
-    margin-bottom: 2rem;
+    font-size: 8vh;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 768px) {
     .judul {
-        font-size: 10vh;
-        margin-bottom: 2rem;
-        display: flex;
-        height: 100%;
-        align-items: end;
-        justify-content: start;
-        text-align: left;
+        font-size: 5vh;
     }
 }
 /* html,
@@ -172,7 +164,7 @@ body {
 }
 
 .nav-pills .nav-link.active {
-    background-color: black;
+    background-color: #d3d3d3;
     color: #ff5700;
 }
 
@@ -284,8 +276,13 @@ iframe {
 /* RESPONSIVE */
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 601px) {
-    .navbar-services {
+    /* .navbar-services {
         margin-right: 10rem;
+    } */
+    #v-pills-tabContent {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        background-color: #d3d3d3;
     }
 
     /* Team */

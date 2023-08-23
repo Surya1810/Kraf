@@ -97,18 +97,10 @@
             <div class="carousel-inner">
                 <div class="carousel-item active c-item">
                     <img src="{{ asset('assets/Picture/1.jpg') }}" class="d-block w-100 c-img" alt="slider_1">
-                    <div class="carousel-caption padding-bottom">
-                        {{-- <div class="row">
-                            <div class="col-12 col-sm-12">
-                                <h1 class="judul">We work on delivering unique visual
-                                    solutions</h1><br>
-                                <a href="#" class="btn btn-lg btn-dark uppercase px-4 py-3">View More <i
-                                        class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
-                            </div>
-                        </div> --}}
+                    <div class="carousel-caption d-flex h-100 align-items-end padding-bottom">
                         <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <h1 style="font-size: 5vh">Attractive design from concept to final result</h1>
+                            <div class="col-12">
+                                <h1 class="judul">Attractive design from concept to final result</h1>
                                 <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
@@ -121,8 +113,8 @@
                         class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
 
                         <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <h1 style="font-size: 5vh">Attractive design from concept to final result</h1>
+                            <div class="col-12">
+                                <h1 class="judul">Attractive design from concept to final result</h1>
                                 <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
@@ -135,8 +127,8 @@
                         class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
 
                         <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <h1 style="font-size: 5vh">Project tactics and strategies for all agencies
+                            <div class="col-12">
+                                <h1 class="judul">Project tactics and strategies for all agencies
                                 </h1>
                                 <a href="#" class="btn zbtn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
@@ -189,7 +181,7 @@
                 <div class="row align-items-center h-100">
                     <div class="col-12">
                         <h1 class="display-5 fw-bold mb-3">Our Services</h1>
-                        <div class="d-flex align-items-start">
+                        <div class="d-flex align-items-start serv">
                             <div class="nav navbar-services nav-pills flex-column" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
                                 <button class="nav-link text-start show active my-2" id="branding_service-tab"
@@ -267,7 +259,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -1110,17 +1101,20 @@
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Features</a>
+                            <li class="nav-item mb-2"><a href="#about-us" class="nav-link p-0 text-body-secondary">About
+                                    Us</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Pricing</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Services</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Works</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">About</a>
+                            <li class="nav-item mb-2"><a href="#contact"
+                                    class="nav-link p-0 text-body-secondary">Contact</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#blogs"
+                                    class="nav-link p-0 text-body-secondary">Blogs</a>
                             </li>
                         </ul>
                     </div>
