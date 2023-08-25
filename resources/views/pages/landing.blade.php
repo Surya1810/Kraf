@@ -59,7 +59,8 @@
         </div>
         <div class="offcanvas-body p-5">
             <p class="text-secondary">Ready to work with us?</p>
-            <h3 class="mb-5"><a href="#" class="link-putih">hi@madebykraf.com</a></h3>
+            <h3 class="mb-5"><a href="mailto:hi@madebykraf.com?subject=Mail from Website"
+                    class="link-putih">hi@madebykraf.com</a></h3>
             <p class="text-secondary">kraf. adalah perusahaaan agensi kreatif yang inovatif dan dinamis, berfokus pada
                 menyediakan solusi
                 kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai industri.</p>
@@ -67,14 +68,13 @@
             <div class="mt-5">
                 <h5 class="mb-2">Follow Us</h5>
                 <ul class="list-unstyled d-flex">
-                    <li><a class="link-body-emphasis text-white" href="https://www.instagram.com/madebykraf"><i
+                    <li><a class="text-white" href="https://www.instagram.com/madebykraf"><i
                                 class="fa-brands fa-instagram fa-lg"></i></a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis text-white"
-                            href="https://www.facebook.com/madebykraf"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                    <li class="ms-3"><a class="text-white" href="https://www.facebook.com/madebykraf"><i
+                                class="fa-brands fa-facebook fa-lg"></i></a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis text-white"
-                            href="https://www.linkedin.com/company/madebykraf/"><i
+                    <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/company/madebykraf/"><i
                                 class="fa-brands fa-linkedin fa-lg"></i></a>
                     </li>
                 </ul>
@@ -175,6 +175,107 @@
             </div>
         </div>
 
+        <!-- Our Clients -->
+        <div class="client padding-kraf">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="col-12">
+                        <h1 class="display-5 fw-bold mb-4">Our Clients</h1>
+
+                        <div id="carouselExample" class="carousel carousel-fade" data-bs-ride="carousel"
+                            data-bs-interval="3000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Our Services -->
         <div class="services padding-kraf" id="services">
             <div class="container h-100">
@@ -214,29 +315,50 @@
                                     aria-labelledby="branding_service-tab" tabindex="0">
                                     <div class="col-12">
                                         <div class="row">
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/01 Logo.jpg') }}"
+                                                    alt="Project">
                                             </div>
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/02 Brand Identity.jpg') }}"
+                                                    alt="Project">
                                             </div>
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/03 Personal Identity.jpg') }}"
+                                                    alt="Project">
                                             </div>
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/04 Packaging.jpg') }}"
+                                                    alt="Project">
                                             </div>
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/05 Tagline.jpg') }}"
+                                                    alt="Project">
                                             </div>
-                                            <div class="col-6 col-sm-3 py-2">
+                                            <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Picture/project_1.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Branding/06 Brand Activation.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Branding/07 Social Media Branding.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Branding/08 Brand Guildelines.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Branding/09 Brand DNA.jpg') }}"
+                                                    alt="Project">
                                             </div>
                                         </div>
                                     </div>
@@ -785,16 +907,47 @@
                         <p><i class="fa-solid fa-envelope"></i> hi@madebykraf.com</p>
                     </div>
                     <div class="col-md-6">
-                        <form action="">
+                        <form action="{{ route('send.email') }}" method="POST">
+                            @csrf
                             <div class="mb-3">
-                                <input type="text" class="form-control" id="name" placeholder="Name">
+                                <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                    id="name" name="name" placeholder="Name" value="{{ old('name') }}"
+                                    required>
+                                @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="mb-3">
-                                <input type="email" class="form-control" id="name" placeholder="Email">
+                                <input type="email" class="form-control @error('email') is-invalid @enderror"
+                                    id="email" name="email" placeholder="Email" value="{{ old('email') }}"
+                                    required>
+                                @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="mb-5">
-                                <textarea class="form-control" placeholder="Your Message" id="message" style="height: 250px"></textarea>
+                                <textarea class="form-control @error('message') is-invalid @enderror" placeholder="Your Message" id="message"
+                                    name="message" style="height: 250px" required>{{ old('message') }}</textarea>
+                                @error('message')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
+                            @if (Session::has('error'))
+                                <div class="alert alert-danger">
+                                    {{ Session::get('error') }}
+                                </div>
+                            @endif
+                            @if (Session::has('success'))
+                                <div class="alert alert-success">
+                                    {{ Session::get('success') }}
+                                </div>
+                            @endif
                             <button type="submit" class="btn btn-lg btn-dark px-4 py3">Send message</button>
                         </form>
                     </div>
@@ -808,11 +961,11 @@
                 <div class="row align-items-center h-100">
                     <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark" data-bs-ride="carousel">
+                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -834,8 +987,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -857,8 +1010,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -880,8 +1033,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -903,8 +1056,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -926,8 +1079,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -949,8 +1102,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -972,8 +1125,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -995,8 +1148,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
@@ -1065,7 +1218,7 @@
                 </div>
                 <div class="col-6 col-md-3 mb-3">
                     <div class="card text-bg-dark rounded-4 shadow-lg border-0">
-                        <img class="card-img" src="{{ asset('assets/Picture/blog-img-5.jpg') }}" alt="Card image">
+                        <img class="card-img" src="{{ asset('assets/Picture/blog-img-011.jpg') }}" alt="Card image">
                         <div class="card-img-overlay d-flex flex-column justify-content-end">
                             <h2 class="pt-5 mt-5 mb-1 lh-1 fw-bold">Digital</h2>
                             <p style="font-size: 2vh">June 9, 2021 / Design</p>
@@ -1081,7 +1234,9 @@
                 <div class="row mb-5 h-100">
                     <div class="col-12 h-100">
                         <p class="text-secondary">Ready to work with us?</p>
-                        <p class="display-3 responsive-font"><a href="#" class="link-putih">hi@madebykraf.com</a>
+                        <p class="display-3 responsive-font"><a
+                                href="mailto:hi@madebykraf.com?subject=Mail from Website"
+                                class="link-putih">hi@madebykraf.com</a>
                         </p>
                     </div>
                 </div>
@@ -1097,11 +1252,13 @@
                         <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
                     </div>
                     <div class="col-4 col-md-2 mb-3 offset-md-1 ">
-                        <h5>Section</h5>
+                        <h5>Menu</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary">Home</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#about-us" class="nav-link p-0 text-body-secondary">About
+                            <li class="nav-item mb-2"><a href="#about-us"
+                                    class="nav-link p-0 text-body-secondary">About
                                     Us</a>
                             </li>
                             <li class="nav-item mb-2"><a href="#services"
@@ -1120,43 +1277,49 @@
                     </div>
 
                     <div class="col-4 col-md-2 mb-3">
-                        <h5>Section</h5>
+                        <h5>Our Services</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Branding</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Features</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Design</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Pricing</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Multimedia</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Website</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">About</a>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Event</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#services"
+                                    class="nav-link p-0 text-body-secondary">Arsitektur</a>
                             </li>
                         </ul>
                     </div>
 
                     <div class="col-4 col-md-2 mb-3">
-                        <h5>Section</h5>
+                        <h5>Our Works</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Branding</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Features</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Design</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Pricing</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Multimedia</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Website</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">About</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Event</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Arsitektur</a>
                             </li>
                         </ul>
                     </div>

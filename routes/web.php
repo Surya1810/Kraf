@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Mail;
+use App\Http\Controllers\ContactController;
+use App\Mail\ContactMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +22,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/check', function () {
     return view('pages.landing');
-});
+})->name('home');
 
 Route::get('/', function () {
     return view('pages.maintanance');
 });
+
+// Contact Us
+Route::post('/send', [ContactController::class, 'send'])->name('send.email');
