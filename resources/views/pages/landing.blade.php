@@ -808,16 +808,16 @@
                 <div class="row align-items-center h-100">
                     <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark" data-bs-ride="carousel">
+                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Director & 3D Architectur</p>
-                                            <p style="font-size: 3vh">Alfazri</p>
+                                            <h6 class="text-secondary">Director & 3D Architectur</h6>
+                                            <p style="font-size: 2vh">Alfazri</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -834,13 +834,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Art & Creative</p>
-                                            <p style="font-size: 3vh">Encep Zainul</p>
+                                            <h6 class="text-secondary">Art & Creative</h6>
+                                            <p style="font-size: 2vh">Encep Zainul</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/enzanimous"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -857,13 +857,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Video & Photography</p>
-                                            <p style="font-size: 3vh">Aris Resmono</p>
+                                            <h6 class="text-secondary">Video & Photography</h6>
+                                            <p style="font-size: 2vh">Aris Resmono</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -880,13 +880,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Graphic Designer</p>
-                                            <p style="font-size: 3vh">Thio Agus</p>
+                                            <h6 class="text-secondary">Graphic Designer</h6>
+                                            <p style="font-size: 2vh">Thio Agus</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/thioaguss"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -903,13 +903,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Animator</p>
-                                            <p style="font-size: 3vh">Rio Tubagus</p>
+                                            <h6 class="text-secondary">Animator</h6>
+                                            <p style="font-size: 2vh">Rio Tubagus</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -926,13 +926,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Illustrator</p>
-                                            <p style="font-size: 3vh">Adil Poetra</p>
+                                            <h6 class="text-secondary">Illustrator</h6>
+                                            <p style="font-size: 2vh">Adil Poetra</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -949,13 +949,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">IT Developer</p>
-                                            <p style="font-size: 3vh">Surya Dinarta</p>
+                                            <h6 class="text-secondary">IT Developer</h6>
+                                            <p style="font-size: 2vh">Surya Dinarta</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -972,13 +972,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Content Creator</p>
-                                            <p style="font-size: 3vh">Fadjar Maulana</p>
+                                            <h6 class="text-secondary">Content Creator</h6>
+                                            <p style="font-size: 2vh">Fadjar Maulana</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -995,13 +995,13 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-4 mb-3">
-                                    <div class="card bg-dark border-0 h-100 mx-5">
+                                <div class="col-md-3 mb-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
                                         <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
-                                            <p class="text-secondary" style="font-size: 2vh">Account Executive</p>
-                                            <p style="font-size: 3vh">Muhammad Ilham</p>
+                                            <h6 class="text-secondary">Account Executive</h6>
+                                            <p style="font-size: 2vh">Muhammad Ilham</p>
                                             <ul class="list-unstyled d-flex">
                                                 <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
                                                         target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
@@ -1097,7 +1097,7 @@
                         <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
                     </div>
                     <div class="col-4 col-md-2 mb-3 offset-md-1 ">
-                        <h5>Section</h5>
+                        <h5>Menu</h5>
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a>
                             </li>
@@ -1120,22 +1120,25 @@
                     </div>
 
                     <div class="col-4 col-md-2 mb-3">
-                        <h5>Section</h5>
+                        <h5>Our Works</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Home</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Branding</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Features</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Design</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Pricing</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Multimedia</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">FAQs</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Website</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">About</a>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Event</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#works"
+                                    class="nav-link p-0 text-body-secondary">Arsitektur</a>
                             </li>
                         </ul>
                     </div>
