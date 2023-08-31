@@ -28,7 +28,7 @@ class ContactController extends Controller
                 'body' => $request->message
             ];
 
-            Mail::to('suryadinartahalim@gmail.com')->send(new ContactMail($mail_data));
+            Mail::to('hi@madebykraf.com')->send(new ContactMail($mail_data));
             return redirect::to(URL::previous() . "#contact")->with('success', "Thank you for contacting us, we'll reply immediatly");
         } else {
             return redirect()->back()->withInput()->with('error', 'Check your internet connection');

@@ -7,6 +7,7 @@
         Button Text
     </x-mail::button> --}}
 
-    Thanks,<br>
+    Thanks,
     {{ $mail_data['fromName'] }}
+    {{ $mail_data['fromEmail'] }}
 </x-mail::message>

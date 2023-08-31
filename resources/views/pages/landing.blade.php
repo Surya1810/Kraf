@@ -36,9 +36,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#blogs">Blogs</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </div>
             <div class="text-end">
@@ -100,7 +100,7 @@
                     <div class="carousel-caption d-flex h-100 align-items-end padding-bottom">
                         <div class="row">
                             <div class="col-12">
-                                <h1 class="judul">Attractive design from concept to final result</h1>
+                                <h1 class="judul">Communication on Space</h1>
                                 <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
                                         class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
                             </div>
@@ -175,106 +175,7 @@
             </div>
         </div>
 
-        <!-- Our Clients -->
-        <div class="client padding-kraf">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-12">
-                        <h1 class="display-5 fw-bold mb-4">Our Clients</h1>
 
-                        <div id="carouselExample" class="carousel carousel-fade" data-bs-ride="carousel"
-                            data-bs-interval="3000">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Our Services -->
         <div class="services padding-kraf" id="services">
@@ -316,67 +217,208 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/01 Logo.jpg') }}"
+                                                <img class="card-img-top photo-service"
+                                                    src="{{ asset('assets/Service/Branding/01 Research _ analysis.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/02 Brand Identity.jpg') }}"
+                                                    src="{{ asset('assets/Service/Branding/02 Brand Identity _ Guidelines.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/03 Personal Identity.jpg') }}"
+                                                    src="{{ asset('assets/Service/Branding/03 Naming.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/04 Packaging.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/05 Tagline.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/06 Brand Activation.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/07 Social Media Branding.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/08 Brand Guildelines.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/09 Brand DNA.jpg') }}"
+                                                    src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
                                                     alt="Project">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="design_service" role="tabpanel"
-                                    aria-labelledby="design-tab_service" tabindex="0">Jelaskan tentang design</div>
+                                    aria-labelledby="design-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/01 Logo.jpg') }}" alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/02 Mascot.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/03 Company Profile.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/04 Visual Identity.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/05 Promotion Media.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/06 Social Media.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Design/07 Packaging.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="marketing_service" role="tabpanel"
-                                    aria-labelledby="marketing-tab_service" tabindex="0">Jelaskan tentang marketing
+                                    aria-labelledby="marketing-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/01 Marketing Strategy.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/04 Content Marketing.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Marketing/05 Social Marketing.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="multimedia_service" role="tabpanel"
-                                    aria-labelledby="multimedia-tab_service" tabindex="0">Jelaskan tentang multimedia
+                                    aria-labelledby="multimedia-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Multimedia/01 Photo _ Videography.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Multimedia/02 Motion Graphics.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Multimedia/03 Commercial Video.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Multimedia/04 Content Creation.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div class="tab-pane fade" id="event_service" role="tabpanel"
-                                    aria-labelledby="event-tab_service" tabindex="0">Jelaskan tentang event</div>
+                                    aria-labelledby="event-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/01 Seminar.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/02 Meeting.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/03 Exhibition.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/05 Promotion.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="website_service" role="tabpanel"
-                                    aria-labelledby="website-tab_service" tabindex="0">Jelaskan tentang website</div>
+                                    aria-labelledby="website-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Website/01 UI_UX.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Website/02 Web Development.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="arsitektur_service" role="tabpanel"
-                                    aria-labelledby="arsitektur-tab_service" tabindex="0">Jelaskan tentang arsitektur
+                                    aria-labelledby="arsitektur-tab_service" tabindex="0">
+                                    <div class="col-12">
+                                        <div class="row">
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Architecture/01 Interior _ Exterior Design.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Architecture/02 Consultation.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Architecture/03 Permit.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Architecture/04 Construction.jpg') }}"
+                                                    alt="Project">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -879,6 +921,110 @@
             </div>
         </div> --}}
 
+        <!-- Our Clients -->
+        <div class="client">
+            <div class="row align-items-center h-100">
+                <div class="col-12">
+                    {{-- <h1 class="display-5 fw-bold mb-4">Our Clients</h1> --}}
+
+                    <div id="carouselExample" class="carousel carousel-fade" data-bs-ride="carousel"
+                        data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="col-12">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-12">
+                                    <div class="row g-0">
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="card border-0">
+                                                <img class="img-fluid" alt="Client"
+                                                    src="{{ asset('assets/Client/BCA.webp') }}">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Contact Us -->
         <div class="contact padding-kraf" id="contact">
             <div class="container h-100">
@@ -895,7 +1041,7 @@
                             bisnis
                             yang Anda butuhkan.</p>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126738.7641849259!2d107.58862400000001!3d-6.939935000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sen!2sus!4v1691856075405!5m2!1sen!2sus"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7981461943214!2d107.6348591!3d-6.9147210999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sid!2sid!4v1693218264202!5m2!1sid!2sid"
                             style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
@@ -912,7 +1058,7 @@
                             <div class="mb-3">
                                 <input type="text" class="form-control @error('name') is-invalid @enderror"
                                     id="name" name="name" placeholder="Name" value="{{ old('name') }}"
-                                    required>
+                                    required autocomplete="on">
                                 @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -922,7 +1068,7 @@
                             <div class="mb-3">
                                 <input type="email" class="form-control @error('email') is-invalid @enderror"
                                     id="email" name="email" placeholder="Email" value="{{ old('email') }}"
-                                    required>
+                                    required autocomplete="on">
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -956,12 +1102,12 @@
         </div>
 
         <!-- Meet The Team -->
-        <div class="team padding-kraf" id="team">
+        <div class="team padding-kraf mb-5" id="team">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="carousel">
+                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
                                 <div class="col-md-3">
@@ -1150,7 +1296,7 @@
                             <div class="carousel-item">
                                 <div class="col-md-3">
                                     <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/ilham.png') }}" class="card-img-top"
+                                        <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
                                             alt="team">
                                         <div class="card-body text-white lh-1">
                                             <h6 class="text-secondary">Account Executive</h6>
@@ -1186,7 +1332,7 @@
         </div>
 
         <!-- Blog -->
-        <div class="container padding-kraf h-100 my-5" id="blogs">
+        {{-- <div class="container padding-kraf h-100 my-5" id="blogs">
             <div class="row h-100">
                 <h1 class="display-5 fw-bold mb-4">Latest Blog Post</h1>
                 <div class="col-6 col-md-3 mb-3">
@@ -1226,7 +1372,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Footer -->
         <footer class="pt-5 border-top" style="background-color: #000;color: #fff;" data-bs-theme="dark">
@@ -1270,9 +1416,9 @@
                             <li class="nav-item mb-2"><a href="#contact"
                                     class="nav-link p-0 text-body-secondary">Contact</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="#blogs"
+                            {{-- <li class="nav-item mb-2"><a href="#blogs"
                                     class="nav-link p-0 text-body-secondary">Blogs</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
 
@@ -1327,7 +1473,7 @@
 
                 <!-- Social Icons -->
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
-                    <p>&copy; 2023 Kraf. All rights reserved.</p>
+                    <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
                     <ul class="list-unstyled d-flex">
                         <li class="ms-3"><a class="link-body-emphasis"
                                 href="https://www.instagram.com/madebykraf"><i
@@ -1424,6 +1570,7 @@
             }
         })
 
+        // Team
         let test = document.querySelectorAll('#carouselTeam .carousel-item')
 
         test.forEach((el) => {
