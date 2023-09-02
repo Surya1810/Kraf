@@ -22,23 +22,20 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <button class="nav-link active" aria-current="page" onclick="backToTop()"
-                            id="homee">Home</button>
+                            id="homee">Beranda</button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
+                        <a class="nav-link" href="#about-us">Tentang Kraf.</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#services">Layanan Kraf.</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#works">Works</a>
+                        <a class="nav-link" href="#works">Kreasi & Inovasi Kraf.</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Kontak</a>
                     </li>
-                    {{-- <li class="nav-item">
-                        <a class="nav-link" href="#blogs">Blogs</a>
-                    </li> --}}
                 </ul>
             </div>
             <div class="text-end">
@@ -86,7 +83,7 @@
         class="scrollspy-example" tabindex="0">
 
         <!-- Carousel -->
-        <section id="carouselMain" class="carousel carousel-main carousel-fade" data-bs-ride="carousel">
+        {{-- <section id="carouselMain" class="carousel carousel-main carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -146,29 +143,67 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </section>
+        </section> --}}
+
+        <!-- Hero -->
+        <div class="hero">
+            <img src="{{ asset('assets/Picture/1.jpg') }}" alt="Hero">
+            <div class="d-flex align-items-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="judul">Communication on Space</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="latest-project">
+
+            <div id="Latest_Project" class="carousel carousel-fade">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="project">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Latest_Project"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
 
         <!-- About Us -->
         <div class="about-us" id="about-us" style="color: white">
             <div class="container h-100 p-5">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
-                        <h1 class="display-5 fw-bold">About Us</h1>
-                        <p class="text-secondary">The Story</p>
+                        <h1 class="display-5 fw-bold">Tentang Kraf.</h1>
+                        <p class="text-secondary">Cerita Kami</p>
                         <hr>
-                        <h2 class="about-us-text">Kraf. adalah sebuah perusahaan agensi kreatif yang inovatif dan dinamis,
-                            berfokus pada
-                            menyediakan
-                            solusi
-                            kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai industri.
-                            Sebagai
-                            agensi
-                            kreatif
-                            yang berorientasi pada perkembangan dan berbasis di era digital, kraf. didirikan dengan
-                            tujuan
-                            untuk
-                            menghadirkan kreativitas, keberanian, dan ketangguhan dalam setiap proyek yang kami
-                            tangani.
+                        <h2 class="about-us-text">Kami percaya agensi kreatif juga inovatif perlu berorientasi
+                            pada perkembangan zaman dan terus mengikuti arus teknologi.
+                            Kraf. hadir dengan tujuan untuk menghadirkan kreativitas, keberanian, dan ketangguhan dalam
+                            setiap kebutuhan yang kamu perlukan.
                         </h2>
                     </div>
                 </div>
@@ -236,6 +271,11 @@
                                                     src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
                                                     alt="Project">
                                             </div>
+                                            <div class="col-6 col-sm-2 py-2">
+                                                <img class="card-img-top"
+                                                    src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
+                                                    alt="Project">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -245,7 +285,8 @@
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/01 Logo.jpg') }}" alt="Project">
+                                                    src="{{ asset('assets/Service/Design/01 Logo.jpg') }}"
+                                                    alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
@@ -292,11 +333,6 @@
                                             <div class="col-6 col-sm-2 py-2">
                                                 <img class="card-img-top"
                                                     src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
@@ -797,8 +833,8 @@
             </div>
         </div>
 
-        <!-- Carousel -->
-        <div class="latest">
+        <!-- Latest Project -->
+        {{-- <div class="latest">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
@@ -813,7 +849,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 1</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -824,7 +859,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 2</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -835,7 +869,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 3</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -846,7 +879,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 4</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -857,7 +889,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 5</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -868,7 +899,6 @@
                                                 <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                                     class="img-fluid">
                                             </div>
-                                            {{-- <div class="card-img-overlay">Slide 6</div> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -885,148 +915,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        {{-- SOSMED --}}
-        {{-- <div class="row h-100 text-center display-1 justify-content-center g-0 mb-5 mx-1">
-            <div class="col">
-                <div
-                    class="border-1 border-end border-start border-dark border-top-0 border-bottom-0 border-right-0 rounder-0 my-2 py-3">
-                    <a class="link-hitam" href="">Fb</a>
-                </div>
-            </div>
-            <div class="col">
-                <div
-                    class="border-1 border-end border-dark border-top-0 border-bottom-0 border-right-0 rounder-0 my-2 py-3">
-                    <a class="link-hitam" href="">Dr</a>
-                </div>
-            </div>
-            <div class="col">
-                <div
-                    class="border-1 border-end border-dark border-top-0 border-bottom-0 border-right-0 rounder-0 my-2 py-3">
-                    <a class="link-hitam" href="">In</a>
-                </div>
-            </div>
-            <div class="col">
-                <div
-                    class="border-1 border-end border-dark border-top-0 border-bottom-0 border-right-0 rounder-0 my-2 py-3">
-                    <a class="link-hitam" href="">Be</a>
-                </div>
-            </div>
-            <div class="col">
-                <div
-                    class="border-1 border-end border-dark border-top-0 border-bottom-0 border-left-0 rounder-0 my-2 py-3">
-                    <a class="link-hitam" href="">Pt</a>
-                </div>
-            </div>
         </div> --}}
 
-        <!-- Our Clients -->
-        <div class="client">
-            <div class="row align-items-center h-100">
-                <div class="col-12">
-                    {{-- <h1 class="display-5 fw-bold mb-4">Our Clients</h1> --}}
-
-                    <div id="carouselExample" class="carousel carousel-fade" data-bs-ride="carousel"
-                        data-bs-interval="3000">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="col-12">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-12">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-12">
-                                    <div class="row g-0">
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                        <div class="col-3">
-                                            <div class="card border-0">
-                                                <img class="img-fluid" alt="Client"
-                                                    src="{{ asset('assets/Client/BCA.webp') }}">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Contact Us -->
-        <div class="contact padding-kraf" id="contact">
+        {{-- <div class="contact padding-kraf" id="contact">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-6">
@@ -1099,7 +991,85 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+
+        <!-- Client -->
+        <div class="container pt-5">
+            <div class="row g-0 d-flex justify-content-center">
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/01 ZTE.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/02 Sesko.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/03 Samsung.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/04 Podomoro.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/05 Mitshubishi.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/06 MS Glow.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/07 Summarecon.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/08 Dago.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/09 BCA.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/10 Jasa.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/11 Honda Bdg.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/12 Grab.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/13 Daihatsu.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/14 BJB.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/15 Danamon.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/16 BUMN.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/17 Djarum.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/18 HDCI.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/19 Harley Siliwangi.png') }}" alt="Client"
+                        style="width: 100%;height: 100%">
+                </div>
+                <div class="col-3 col-md-1">
+                    <img src="{{ asset('assets/Client/20 HOG.png') }}" alt="Client" style="width: 100%;height: 100%">
+                </div>
+            </div>
         </div>
+
 
         <!-- Meet The Team -->
         <div class="team padding-kraf mb-5" id="team">
@@ -1375,8 +1345,8 @@
         </div> --}}
 
         <!-- Footer -->
-        <footer class="pt-5 border-top" style="background-color: #000;color: #fff;" data-bs-theme="dark">
-            <div class="container">
+        <footer class="footer" id="contact">
+            {{-- <div class="container">
                 <div class="row mb-5 h-100">
                     <div class="col-12 h-100">
                         <p class="text-secondary">Ready to work with us?</p>
@@ -1416,9 +1386,6 @@
                             <li class="nav-item mb-2"><a href="#contact"
                                     class="nav-link p-0 text-body-secondary">Contact</a>
                             </li>
-                            {{-- <li class="nav-item mb-2"><a href="#blogs"
-                                    class="nav-link p-0 text-body-secondary">Blogs</a>
-                            </li> --}}
                         </ul>
                     </div>
 
@@ -1471,7 +1438,6 @@
                     </div>
                 </div>
 
-                <!-- Social Icons -->
                 <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
                     <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
                     <ul class="list-unstyled d-flex">
@@ -1485,6 +1451,127 @@
                                     class="fa-brands fa-linkedin fa-lg"></i></a></li>
                     </ul>
                 </div>
+            </div> --}}
+            <div class="row" style="height: 100vh;width: 100vw">
+                <div class="col-md-8" style="background-color: #000;color: #fff;">
+                    <div class="container h-100 p-5">
+                        <div class="row align-items-center h-100" style="padding-bottom: 100px">
+                            <div class="col-12">
+                                <div class="row mb-5 h-100">
+                                    <div class="col-12 h-100">
+                                        <p class="text-secondary">Ready to work with us?</p>
+                                        <p class="display-3 responsive-font"><a
+                                                href="mailto:hi@madebykraf.com?subject=Mail from Website"
+                                                class="link-putih">hi@madebykraf.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row mt-5">
+                                    <div class="col-md-5 mb-5">
+                                        <p class="text-secondary mb-5">
+                                            kraf. adalah perusahaaan agensi kreatif yang inovatif dan dinamis, berfokus pada
+                                            menyediakan
+                                            solusi
+                                            kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai
+                                            industri.
+                                        </p>
+                                        <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
+                                    </div>
+                                    <div class="col-md-3"></div>
+                                    <div class="col-6 col-md-2 mb-3">
+                                        <h5>Our Services</h5>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Branding</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Design</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Multimedia</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Website</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Event</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#services"
+                                                    class="nav-link p-0 text-secondary">Arsitektur</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-6 col-md-2 mb-3">
+                                        <h5>Our Works</h5>
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Branding</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Design</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Multimedia</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Website</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Event</a>
+                                            </li>
+                                            <li class="nav-item mb-2"><a href="#works"
+                                                    class="nav-link p-0 text-secondary">Arsitektur</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="background-color: #ff5700;color: #000;">
+                    <div class="container h-100 p-5">
+                        <div class="row align-items-center h-100">
+                            <div class="col-12">
+                                <h1 class="display-6 fw-bold mb-5">Get in Touch!</h1>
+                                <p class="mb-5">Kami akan dengan senang hati menyambut Anda di kantor kami. Kami
+                                    bahkan dapat
+                                    mengunjungi kantor
+                                    Anda
+                                    untuk membicarakan dan
+                                    berbagi ide bisnis yang Anda butuhkan.</p>
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7981461943214!2d107.6348591!3d-6.9147210999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sid!2sid!4v1693218264202!5m2!1sid!2sid"
+                                    style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <h3 class="mt-5">Grha PHRI Jabar</h3>
+                                <p style="font-size: 14px"><i class="fa-solid fa-location-dot"></i> Jl. Sukabumi No. 42,
+                                    Kacapiring, Kota
+                                    Bandung, Jawa
+                                    Barat 40233
+                                </p>
+                                <p style="font-size: 14px"><i class="fa-solid fa-phone"></i> +62 818 21 2023</p>
+                                <p style="font-size: 14px"><i class="fa-solid fa-envelope"></i> hi@madebykraf.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
+                    <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://www.instagram.com/madebykraf"><i
+                                    class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
+                                    class="fa-brands fa-facebook fa-lg"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://www.linkedin.com/company/madebykraf/"><i
+                                    class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                    </ul>
+                </div> --}}
             </div>
         </footer>
     </div>
