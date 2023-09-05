@@ -83,28 +83,23 @@
         class="scrollspy-example" tabindex="0">
 
         <!-- Carousel -->
-        {{-- <section id="carouselMain" class="carousel carousel-main carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-indicators">
+        <section id="carouselMain" class="carousel carousel-main carousel-fade" data-bs-ride="carousel">
+            {{-- <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+            </div> --}}
 
             <div class="carousel-inner">
                 <div class="carousel-item active c-item">
                     <img src="{{ asset('assets/Picture/1.jpg') }}" class="d-block w-100 c-img" alt="slider_1">
-                    <div class="carousel-caption d-flex h-100 align-items-end padding-bottom">
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="judul">Communication on Space</h1>
-                                <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
-                                        class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
-                            </div>
-                        </div>
+                    <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
+                        <h1>Communication on Space</h1>
                     </div>
                 </div>
-                <div class="carousel-item c-item">
+            </div>
+            {{-- <div class="carousel-item c-item">
                     <img src="{{ asset('assets/Picture/2.jpg') }}" class="d-block w-100 c-img" alt="slider_2">
                     <div
                         class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
@@ -132,327 +127,303 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> --}}
+    </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+    {{-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
+            </button> --}}
+    </section>
+
+    <!-- Latest Project -->
+    <div class="latest-project">
+        <div id="Latest_Project" class="carousel carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="project">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_2">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-        </section> --}}
+            <button class="carousel-control-next" type="button" data-bs-target="#Latest_Project" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
-        <!-- Hero -->
-        <div class="hero">
-            <img src="{{ asset('assets/Picture/1.jpg') }}" alt="Hero">
-            <div class="d-flex align-items-center">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="judul">Communication on Space</h1>
-                    </div>
+    <!-- About Us -->
+    <div class="about-us" id="about-us" style="color: white">
+        <div class="container h-100 p-5">
+            <div class="row align-items-center h-100">
+                <div class="col-12">
+                    <h1 class="display-5 fw-bold">Tentang Kraf.</h1>
+                    <p class="text-secondary">Cerita Kami</p>
+                    <hr>
+                    <h2 class="about-us-text">Kami percaya agensi kreatif juga inovatif perlu berorientasi
+                        pada perkembangan zaman dan terus mengikuti arus teknologi.
+                        Kraf. hadir dengan tujuan untuk menghadirkan kreativitas, keberanian, dan ketangguhan dalam
+                        setiap kebutuhan yang kamu perlukan.
+                    </h2>
                 </div>
             </div>
         </div>
-
-        <div class="latest-project">
-
-            <div id="Latest_Project" class="carousel carousel-fade">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="project">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_3">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#Latest_Project"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-
-        <!-- About Us -->
-        <div class="about-us" id="about-us" style="color: white">
-            <div class="container h-100 p-5">
-                <div class="row align-items-center h-100">
-                    <div class="col-12">
-                        <h1 class="display-5 fw-bold">Tentang Kraf.</h1>
-                        <p class="text-secondary">Cerita Kami</p>
-                        <hr>
-                        <h2 class="about-us-text">Kami percaya agensi kreatif juga inovatif perlu berorientasi
-                            pada perkembangan zaman dan terus mengikuti arus teknologi.
-                            Kraf. hadir dengan tujuan untuk menghadirkan kreativitas, keberanian, dan ketangguhan dalam
-                            setiap kebutuhan yang kamu perlukan.
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
+    </div>
 
 
 
-        <!-- Our Services -->
-        <div class="services padding-kraf" id="services">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-12">
-                        <h1 class="display-5 fw-bold mb-3">Our Services</h1>
-                        <div class="d-flex align-items-start serv">
-                            <div class="nav navbar-services nav-pills flex-column" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <button class="nav-link text-start show active my-2" id="branding_service-tab"
-                                    data-bs-toggle="pill" data-bs-target="#branding_service" type="button"
-                                    role="tab" aria-controls="branding_service"
-                                    aria-selected="true">Branding</button>
-                                <button class="nav-link text-start my-2" id="design_service-tab" data-bs-toggle="pill"
-                                    data-bs-target="#design_service" type="button" role="tab"
-                                    aria-controls="design_service" aria-selected="false">Design</button>
-                                <button class="nav-link text-start my-2" id="marketing_service-tab" data-bs-toggle="pill"
-                                    data-bs-target="#marketing_service" type="button" role="tab"
-                                    aria-controls="marketing_service" aria-selected="false">Marketing</button>
-                                <button class="nav-link text-start my-2" id="multimedia_service-tab"
-                                    data-bs-toggle="pill" data-bs-target="#multimedia_service" type="button"
-                                    role="tab" aria-controls="multimedia_service"
-                                    aria-selected="false">Multimedia</button>
-                                <button class="nav-link text-start my-2" id="event_service-tab" data-bs-toggle="pill"
-                                    data-bs-target="#event_service" type="button" role="tab"
-                                    aria-controls="event_service" aria-selected="false">Event</button>
-                                <button class="nav-link text-start my-2" id="website_service-tab" data-bs-toggle="pill"
-                                    data-bs-target="#website_service" type="button" role="tab"
-                                    aria-controls="website_service" aria-selected="false">Website</button>
-                                <button class="nav-link text-start my-2" id="arsitektur_service-tab"
-                                    data-bs-toggle="pill" data-bs-target="#arsitektur_service" type="button"
-                                    role="tab" aria-controls="arsitektur_service"
-                                    aria-selected="false">Arsitektur</button>
+    <!-- Our Services -->
+    <div class="services" id="services">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="col-12">
+                    <h1 class="display-5 fw-bold mb-3">Layanan Kraf.</h1>
+                    <div class="d-flex align-items-start serv">
+                        <div class="nav navbar-services nav-pills flex-column" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link text-start show active my-2" id="branding_service-tab"
+                                data-bs-toggle="pill" data-bs-target="#branding_service" type="button" role="tab"
+                                aria-controls="branding_service" aria-selected="true">Branding</button>
+                            <button class="nav-link text-start my-2" id="design_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#design_service" type="button" role="tab"
+                                aria-controls="design_service" aria-selected="false">Design</button>
+                            <button class="nav-link text-start my-2" id="marketing_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#marketing_service" type="button" role="tab"
+                                aria-controls="marketing_service" aria-selected="false">Marketing</button>
+                            <button class="nav-link text-start my-2" id="multimedia_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#multimedia_service" type="button" role="tab"
+                                aria-controls="multimedia_service" aria-selected="false">Multimedia</button>
+                            <button class="nav-link text-start my-2" id="event_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#event_service" type="button" role="tab"
+                                aria-controls="event_service" aria-selected="false">Event</button>
+                            <button class="nav-link text-start my-2" id="website_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#website_service" type="button" role="tab"
+                                aria-controls="website_service" aria-selected="false">Website</button>
+                            <button class="nav-link text-start my-2" id="arsitektur_service-tab" data-bs-toggle="pill"
+                                data-bs-target="#arsitektur_service" type="button" role="tab"
+                                aria-controls="arsitektur_service" aria-selected="false">Arsitektur</button>
+                        </div>
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="branding_service" role="tabpanel"
+                                aria-labelledby="branding_service-tab" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top photo-service"
+                                                src="{{ asset('assets/Service/Branding/01 Research _ analysis.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Branding/02 Brand Identity _ Guidelines.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Branding/03 Naming.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="branding_service" role="tabpanel"
-                                    aria-labelledby="branding_service-tab" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top photo-service"
-                                                    src="{{ asset('assets/Service/Branding/01 Research _ analysis.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/02 Brand Identity _ Guidelines.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/03 Naming.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            <div class="tab-pane fade" id="design_service" role="tabpanel"
+                                aria-labelledby="design-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/01 Logo.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/02 Mascot.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/03 Company Profile.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/04 Visual Identity.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/05 Promotion Media.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/06 Social Media.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Design/07 Packaging.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="design_service" role="tabpanel"
-                                    aria-labelledby="design-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/01 Logo.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/02 Mascot.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/03 Company Profile.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/04 Visual Identity.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/05 Promotion Media.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/06 Social Media.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Design/07 Packaging.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="marketing_service" role="tabpanel"
+                                aria-labelledby="marketing-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Marketing/01 Marketing Strategy.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Marketing/04 Content Marketing.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Marketing/05 Social Marketing.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="marketing_service" role="tabpanel"
-                                    aria-labelledby="marketing-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/01 Marketing Strategy.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/04 Content Marketing.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Marketing/05 Social Marketing.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="multimedia_service" role="tabpanel"
+                                aria-labelledby="multimedia-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Multimedia/01 Photo _ Videography.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Multimedia/02 Motion Graphics.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Multimedia/03 Commercial Video.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Multimedia/04 Content Creation.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="multimedia_service" role="tabpanel"
-                                    aria-labelledby="multimedia-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Multimedia/01 Photo _ Videography.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Multimedia/02 Motion Graphics.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Multimedia/03 Commercial Video.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Multimedia/04 Content Creation.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="event_service" role="tabpanel"
+                                aria-labelledby="event-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/01 Seminar.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/02 Meeting.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/03 Exhibition.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Event/05 Promotion.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="event_service" role="tabpanel"
-                                    aria-labelledby="event-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/01 Seminar.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/02 Meeting.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/03 Exhibition.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Event/05 Promotion.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="website_service" role="tabpanel"
+                                aria-labelledby="website-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Website/01 UI_UX.jpg') }}" alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Website/02 Web Development.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="website_service" role="tabpanel"
-                                    aria-labelledby="website-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Website/01 UI_UX.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Website/02 Web Development.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                            </div>
+                            <div class="tab-pane fade" id="arsitektur_service" role="tabpanel"
+                                aria-labelledby="arsitektur-tab_service" tabindex="0">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Architecture/01 Interior _ Exterior Design.jpg') }}"
+                                                alt="Project">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="arsitektur_service" role="tabpanel"
-                                    aria-labelledby="arsitektur-tab_service" tabindex="0">
-                                    <div class="col-12">
-                                        <div class="row">
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Architecture/01 Interior _ Exterior Design.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Architecture/02 Consultation.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Architecture/03 Permit.jpg') }}"
-                                                    alt="Project">
-                                            </div>
-                                            <div class="col-6 col-sm-2 py-2">
-                                                <img class="card-img-top"
-                                                    src="{{ asset('assets/Service/Architecture/04 Construction.jpg') }}"
-                                                    alt="Project">
-                                            </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Architecture/02 Consultation.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Architecture/03 Permit.jpg') }}"
+                                                alt="Project">
+                                        </div>
+                                        <div class="col-6 col-sm-2 py-2">
+                                            <img class="card-img-top"
+                                                src="{{ asset('assets/Service/Architecture/04 Construction.jpg') }}"
+                                                alt="Project">
                                         </div>
                                     </div>
                                 </div>
@@ -462,369 +433,365 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Our Works -->
-        <div class="container padding-kraf" id="works">
-            <h1 class="display-5 fw-bold">Our Works</h1>
-            <nav class="navbar-work">
-                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding"
-                        type="button" role="tab" aria-controls="branding" aria-selected="false">Branding</button>
-                    <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design"
-                        type="button" role="tab" aria-controls="design" aria-selected="true">Design</button>
-                    <button class="nav-link" id="multimedia-tab" data-bs-toggle="tab" data-bs-target="#multimedia"
-                        type="button" role="tab" aria-controls="multimedia"
-                        aria-selected="false">Multimedia</button>
-                    <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website"
-                        type="button" role="tab" aria-controls="website" aria-selected="false">Website</button>
-                    <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event" type="button"
-                        role="tab" aria-controls="event" aria-selected="false">Event</button>
-                    <button class="nav-link" id="arsitektur-tab" data-bs-toggle="tab" data-bs-target="#arsitektur"
-                        type="button" role="tab" aria-controls="arsitektur"
-                        aria-selected="false">Arsitektur</button>
-                </div>
-            </nav>
-            <div class="tab-content my-3" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="branding" role="tabpanel" aria-labelledby="branding-tab"
-                    tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+    <!-- Our Works -->
+    <div class="container padding-kraf" id="works">
+        <h1 class="display-5 fw-bold">Kreasi & Inovasi Kraf.</h1>
+        <nav class="navbar-work">
+            <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding"
+                    type="button" role="tab" aria-controls="branding" aria-selected="false">Branding</button>
+                <button class="nav-link" id="design-tab" data-bs-toggle="tab" data-bs-target="#design" type="button"
+                    role="tab" aria-controls="design" aria-selected="true">Design</button>
+                <button class="nav-link" id="multimedia-tab" data-bs-toggle="tab" data-bs-target="#multimedia"
+                    type="button" role="tab" aria-controls="multimedia" aria-selected="false">Multimedia</button>
+                <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button"
+                    role="tab" aria-controls="website" aria-selected="false">Website</button>
+                <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event" type="button"
+                    role="tab" aria-controls="event" aria-selected="false">Event</button>
+                <button class="nav-link" id="arsitektur-tab" data-bs-toggle="tab" data-bs-target="#arsitektur"
+                    type="button" role="tab" aria-controls="arsitektur" aria-selected="false">Arsitektur</button>
+            </div>
+        </nav>
+        <div class="tab-content my-3" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="branding" role="tabpanel" aria-labelledby="branding-tab"
+                tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="multimedia" role="tabpanel" aria-labelledby="multimedia-tab"
-                    tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="multimedia" role="tabpanel" aria-labelledby="multimedia-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="website-tab" tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="website-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab" tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="arsitektur" role="tabpanel" aria-labelledby="arsitektur-tab"
-                    tabindex="0">
-                    <div class="row g-0 work">
-                        <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+            </div>
+            <div class="tab-pane fade" id="arsitektur" role="tabpanel" aria-labelledby="arsitektur-tab" tabindex="0">
+                <div class="row g-0 work">
+                    <img src="{{ asset('assets/Logo/port-list-logo.jpg') }}" alt="kraf" class="kraf-center">
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 work-padding">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6 work-padding">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
-                            <div class="card border-0">
-                                <div class="ratio ratio-1x1">
-                                    <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                        alt="Project">
-                                </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
-                                    </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0">
+                            <div class="ratio ratio-1x1">
+                                <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                    alt="Project">
+                            </div>
+                            <div class="card-img-overlay">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
+                                    <h4 style="font-size: 2vw;">We Build Great Things</h4>
                                 </div>
                             </div>
                         </div>
@@ -832,9 +799,10 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Latest Project -->
-        {{-- <div class="latest">
+    <!-- Latest Project -->
+    {{-- <div class="latest">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
@@ -917,8 +885,8 @@
             </div>
         </div> --}}
 
-        <!-- Contact Us -->
-        {{-- <div class="contact padding-kraf" id="contact">
+    <!-- Contact Us -->
+    {{-- <div class="contact padding-kraf" id="contact">
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-md-6">
@@ -993,316 +961,304 @@
             </div>
         </div> --}}
 
-        <!-- Client -->
-        <div class="container pt-5">
-            <div class="row g-0 d-flex justify-content-center">
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/01 ZTE.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/02 Sesko.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/03 Samsung.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/04 Podomoro.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/05 Mitshubishi.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/06 MS Glow.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/07 Summarecon.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/08 Dago.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/09 BCA.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/10 Jasa.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/11 Honda Bdg.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/12 Grab.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/13 Daihatsu.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/14 BJB.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/15 Danamon.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/16 BUMN.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/17 Djarum.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/18 HDCI.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/19 Harley Siliwangi.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/20 HOG.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
+    <!-- Client -->
+    <div class="container pt-5">
+        <div class="row g-0 d-flex justify-content-center">
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/01 ZTE.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/02 Sesko.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/03 Samsung.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/04 Podomoro.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/05 Mitshubishi.png') }}" alt="Client"
+                    style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/06 MS Glow.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/07 Summarecon.png') }}" alt="Client"
+                    style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/08 Dago.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/09 BCA.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/10 Jasa.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/11 Honda Bdg.png') }}" alt="Client"
+                    style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/12 Grab.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/13 Daihatsu.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/14 BJB.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/15 Danamon.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/16 BUMN.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/17 Djarum.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/18 HDCI.png') }}" alt="Client" style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/19 Harley Siliwangi.png') }}" alt="Client"
+                    style="width: 100%;height: 100%">
+            </div>
+            <div class="col-3 col-md-1">
+                <img src="{{ asset('assets/Client/20 HOG.png') }}" alt="Client" style="width: 100%;height: 100%">
             </div>
         </div>
+    </div>
 
 
-        <!-- Meet The Team -->
-        <div class="team padding-kraf mb-5" id="team">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
+    <!-- Meet The Team -->
+    <div class="team padding-kraf mb-5" id="team">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
-                        <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Director & 3D Architectur</h6>
-                                            <p style="font-size: 2vh">Alfazri</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:alfazri@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Art & Creative</h6>
-                                            <p style="font-size: 2vh">Encep Zainul</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/enzanimous"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:enza@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Video & Photography</h6>
-                                            <p style="font-size: 2vh">Aris Resmono</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:aris@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Graphic Designer</h6>
-                                            <p style="font-size: 2vh">Thio Agus</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/thioaguss"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:thio@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Animator</h6>
-                                            <p style="font-size: 2vh">Rio Tubagus</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:rio@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Illustrator</h6>
-                                            <p style="font-size: 2vh">Adil Poetra</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:adil@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">IT Developer</h6>
-                                            <p style="font-size: 2vh">Surya Dinarta</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:surya@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Content Creator</h6>
-                                            <p style="font-size: 2vh">Fadjar Maulana</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:fajar@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="col-md-3">
-                                    <div class="card bg-dark border-0 h-100 mx-3">
-                                        <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
-                                            alt="team">
-                                        <div class="card-body text-white lh-1">
-                                            <h6 class="text-secondary">Account Executive</h6>
-                                            <p style="font-size: 2vh">Muhammad Ilham</p>
-                                            <ul class="list-unstyled d-flex">
-                                                <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
-                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                                </li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                <li class="ms-3"><a class="link-light"
-                                                        href="mailto:ilham@madebykraf.com"><i
-                                                            class="fa-solid fa-envelope"></i></a></li>
-                                            </ul>
-                                        </div>
+                <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Director & 3D Architectur</h6>
+                                        <p style="font-size: 2vh">Alfazri</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="mailto:alfazri@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev bg-transparent w-aut" href="#carouselTeam" role="button"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a class="carousel-control-next bg-transparent w-aut" href="#carouselTeam" role="button"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Art & Creative</h6>
+                                        <p style="font-size: 2vh">Encep Zainul</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/enzanimous"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light" href="mailto:enza@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Video & Photography</h6>
+                                        <p style="font-size: 2vh">Aris Resmono</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light" href="mailto:aris@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Graphic Designer</h6>
+                                        <p style="font-size: 2vh">Thio Agus</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/thioaguss"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light" href="mailto:thio@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Animator</h6>
+                                        <p style="font-size: 2vh">Rio Tubagus</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Illustrator</h6>
+                                        <p style="font-size: 2vh">Adil Poetra</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light" href="mailto:adil@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">IT Developer</h6>
+                                        <p style="font-size: 2vh">Surya Dinarta</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="mailto:surya@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Content Creator</h6>
+                                        <p style="font-size: 2vh">Fadjar Maulana</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="mailto:fajar@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3">
+                                <div class="card bg-dark border-0 h-100 mx-3">
+                                    <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
+                                        alt="team">
+                                    <div class="card-body text-white lh-1">
+                                        <h6 class="text-secondary">Account Executive</h6>
+                                        <p style="font-size: 2vh">Muhammad Ilham</p>
+                                        <ul class="list-unstyled d-flex">
+                                            <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
+                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                            </li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="https://www.linkedin.com/company/madebykraf/"><i
+                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                            <li class="ms-3"><a class="link-light"
+                                                    href="mailto:ilham@madebykraf.com"><i
+                                                        class="fa-solid fa-envelope"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <a class="carousel-control-prev bg-transparent w-aut" href="#carouselTeam" role="button"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next bg-transparent w-aut" href="#carouselTeam" role="button"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
                 </div>
             </div>
-
         </div>
 
-        <!-- Blog -->
-        {{-- <div class="container padding-kraf h-100 my-5" id="blogs">
+    </div>
+
+    <!-- Blog -->
+    {{-- <div class="container padding-kraf h-100 my-5" id="blogs">
             <div class="row h-100">
                 <h1 class="display-5 fw-bold mb-4">Latest Blog Post</h1>
                 <div class="col-6 col-md-3 mb-3">
@@ -1344,236 +1300,132 @@
             </div>
         </div> --}}
 
-        <!-- Footer -->
-        <footer class="footer" id="contact">
-            {{-- <div class="container">
-                <div class="row mb-5 h-100">
-                    <div class="col-12 h-100">
-                        <p class="text-secondary">Ready to work with us?</p>
-                        <p class="display-3 responsive-font"><a
-                                href="mailto:hi@madebykraf.com?subject=Mail from Website"
-                                class="link-putih">hi@madebykraf.com</a>
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <div class="row mt-5">
-                    <div class="col-md-5 mb-5">
-                        <p class="text-secondary">
-                            kraf. adalah perusahaaan agensi kreatif yang inovatif dan dinamis, berfokus pada
-                            menyediakan
-                            solusi
-                            kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai industri.
-                        </p>
-                        <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
-                    </div>
-                    <div class="col-4 col-md-2 mb-3 offset-md-1 ">
-                        <h5>Menu</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#"
-                                    class="nav-link p-0 text-body-secondary">Home</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#about-us"
-                                    class="nav-link p-0 text-body-secondary">About
-                                    Us</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Services</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Works</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#contact"
-                                    class="nav-link p-0 text-body-secondary">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+    <!-- Footer -->
 
-                    <div class="col-4 col-md-2 mb-3">
-                        <h5>Our Services</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Branding</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Design</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Multimedia</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Website</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Event</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#services"
-                                    class="nav-link p-0 text-body-secondary">Arsitektur</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-4 col-md-2 mb-3">
-                        <h5>Our Works</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Branding</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Design</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Multimedia</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Website</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Event</a>
-                            </li>
-                            <li class="nav-item mb-2"><a href="#works"
-                                    class="nav-link p-0 text-body-secondary">Arsitektur</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
-                    <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis"
-                                href="https://www.instagram.com/madebykraf"><i
-                                    class="fa-brands fa-instagram fa-lg"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
-                                    class="fa-brands fa-facebook fa-lg"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis"
-                                href="https://www.linkedin.com/company/madebykraf/"><i
-                                    class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                    </ul>
-                </div>
-            </div> --}}
-            <div class="row" style="height: 100vh;width: 100vw">
-                <div class="col-md-8" style="background-color: #000;color: #fff;">
-                    <div class="container h-100 p-5">
-                        <div class="row align-items-center h-100" style="padding-bottom: 100px">
-                            <div class="col-12">
-                                <div class="row mb-5 h-100">
-                                    <div class="col-12 h-100">
-                                        <p class="text-secondary">Ready to work with us?</p>
-                                        <p class="display-3 responsive-font"><a
-                                                href="mailto:hi@madebykraf.com?subject=Mail from Website"
-                                                class="link-putih">hi@madebykraf.com</a>
-                                        </p>
-                                    </div>
+    <footer class="footer padding-kraf" id="contact">
+        <div class="row" style="height: 100vh;width: 100vw">
+            <div class="col-md-8" style="background-color: #000;color: #fff;">
+                <div class="container h-100 p-5">
+                    <div class="row align-items-center h-100" style="padding-bottom: 100px">
+                        <div class="col-12">
+                            <div class="row mb-5 h-100">
+                                <div class="col-12 h-100">
+                                    <p class="text-secondary">Ready to work with us?</p>
+                                    <p class="display-3 responsive-font"><a
+                                            href="mailto:hi@madebykraf.com?subject=Mail from Website"
+                                            class="link-putih">hi@madebykraf.com</a>
+                                    </p>
                                 </div>
-                                <hr>
-                                <div class="row mt-5">
-                                    <div class="col-md-5 mb-5">
-                                        <p class="text-secondary mb-5">
-                                            kraf. adalah perusahaaan agensi kreatif yang inovatif dan dinamis, berfokus pada
-                                            menyediakan
-                                            solusi
-                                            kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai
-                                            industri.
-                                        </p>
-                                        <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
-                                    </div>
-                                    <div class="col-md-3"></div>
-                                    <div class="col-6 col-md-2 mb-3">
-                                        <h5>Our Services</h5>
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Branding</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Design</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Multimedia</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Website</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Event</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#services"
-                                                    class="nav-link p-0 text-secondary">Arsitektur</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                            </div>
+                            <hr>
+                            <div class="row mt-5">
+                                <div class="col-md-5 mb-5">
+                                    <p class="text-secondary mb-5">
+                                        kraf. adalah perusahaaan agensi kreatif yang inovatif dan dinamis, berfokus pada
+                                        menyediakan
+                                        solusi
+                                        kreatif dan layanan pemasaran terpadu untuk berbagai klien dari berbagai
+                                        industri.
+                                    </p>
+                                    <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo">
+                                </div>
+                                <div class="col-md-3"></div>
+                                <div class="col-6 col-md-2 mb-3">
+                                    <h5>Our Services</h5>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Branding</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Design</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Multimedia</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Website</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Event</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#services"
+                                                class="nav-link p-0 text-secondary">Arsitektur</a>
+                                        </li>
+                                    </ul>
+                                </div>
 
-                                    <div class="col-6 col-md-2 mb-3">
-                                        <h5>Our Works</h5>
-                                        <ul class="nav flex-column">
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Branding</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Design</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Multimedia</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Website</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Event</a>
-                                            </li>
-                                            <li class="nav-item mb-2"><a href="#works"
-                                                    class="nav-link p-0 text-secondary">Arsitektur</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="col-6 col-md-2 mb-3">
+                                    <h5>Our Works</h5>
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Branding</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Design</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Multimedia</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Website</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Event</a>
+                                        </li>
+                                        <li class="nav-item mb-2"><a href="#works"
+                                                class="nav-link p-0 text-secondary">Arsitektur</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" style="background-color: #ff5700;color: #000;">
-                    <div class="container h-100 p-5">
-                        <div class="row align-items-center h-100">
-                            <div class="col-12">
-                                <h1 class="display-6 fw-bold mb-5">Get in Touch!</h1>
-                                <p class="mb-5">Kami akan dengan senang hati menyambut Anda di kantor kami. Kami
-                                    bahkan dapat
-                                    mengunjungi kantor
-                                    Anda
-                                    untuk membicarakan dan
-                                    berbagi ide bisnis yang Anda butuhkan.</p>
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7981461943214!2d107.6348591!3d-6.9147210999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sid!2sid!4v1693218264202!5m2!1sid!2sid"
-                                    style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-                                </iframe>
-                                <h3 class="mt-5">Grha PHRI Jabar</h3>
-                                <p style="font-size: 14px"><i class="fa-solid fa-location-dot"></i> Jl. Sukabumi No. 42,
-                                    Kacapiring, Kota
-                                    Bandung, Jawa
-                                    Barat 40233
-                                </p>
-                                <p style="font-size: 14px"><i class="fa-solid fa-phone"></i> +62 818 21 2023</p>
-                                <p style="font-size: 14px"><i class="fa-solid fa-envelope"></i> hi@madebykraf.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{-- <div class="d-flex flex-column flex-sm-row justify-content-between py-4 pe-5 mt-4 border-top">
-                    <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
-                    <ul class="list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-body-emphasis"
-                                href="https://www.instagram.com/madebykraf"><i
-                                    class="fa-brands fa-instagram fa-lg"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
-                                    class="fa-brands fa-facebook fa-lg"></i></a></li>
-                        <li class="ms-3"><a class="link-body-emphasis"
-                                href="https://www.linkedin.com/company/madebykraf/"><i
-                                    class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                    </ul>
-                </div> --}}
             </div>
-        </footer>
+            <div class="col-md-4" style="background-color: #ff5700;color: #000;">
+                <div class="container h-100 p-5">
+                    <div class="row align-items-center h-100">
+                        <div class="col-12">
+                            <h1 class="display-6 fw-bold mb-5">Get in Touch!</h1>
+                            <p class="mb-5">Kami akan dengan senang hati menyambut Anda di kantor kami. Kami
+                                bahkan dapat
+                                mengunjungi kantor
+                                Anda
+                                untuk membicarakan dan
+                                berbagi ide bisnis yang Anda butuhkan.</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7981461943214!2d107.6348591!3d-6.9147210999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sid!2sid!4v1693218264202!5m2!1sid!2sid"
+                                style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                            <h3 class="mt-5">Grha PHRI Jabar</h3>
+                            <p style="font-size: 14px"><i class="fa-solid fa-location-dot"></i> Jl. Sukabumi No. 42,
+                                Kacapiring, Kota
+                                Bandung, Jawa
+                                Barat 40233
+                            </p>
+                            <p style="font-size: 14px"><i class="fa-solid fa-phone"></i> +62 818 21 2023</p>
+                            <p style="font-size: 14px"><i class="fa-solid fa-envelope"></i> hi@madebykraf.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="absolute text-white border-top">
+        <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 px-5 mt-4 border-top">
+            <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/madebykraf"><i
+                            class="fa-brands fa-instagram fa-lg"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
+                            class="fa-brands fa-facebook fa-lg"></i></a></li>
+                <li class="ms-3"><a class="link-body-emphasis"
+                        href="https://www.linkedin.com/company/madebykraf/"><i
+                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+            </ul>
+        </div>
+    </div>
     </div>
 
     <!-- Back to top button -->
@@ -1604,39 +1456,6 @@
                 navEl.classList.remove('navbar-light', 'navbar-scrolled');
                 navEl.classList.add('navbar-dark');
                 $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-light-ok.png') }}");
-            }
-        })
-
-        // services Carousel
-        let services = document.querySelectorAll('#services-carousel .carousel-item')
-
-        services.forEach((el) => {
-            const minPerSlide = 4
-            let next = el.nextElementSibling
-            for (var i = 1; i < minPerSlide; i++) {
-                if (!next) {
-                    // wrap carousel by using first child
-                    next = services[0]
-                }
-                let cloneChild = next.cloneNode(true)
-                el.appendChild(cloneChild.children[0])
-                next = next.nextElementSibling
-            }
-        })
-        // services Carousel
-        let services2 = document.querySelectorAll('#services-carousel-2 .carousel-item')
-
-        services.forEach((el) => {
-            const minPerSlide = 4
-            let next = el.nextElementSibling
-            for (var i = 1; i < minPerSlide; i++) {
-                if (!next) {
-                    // wrap carousel by using first child
-                    next = services2[0]
-                }
-                let cloneChild = next.cloneNode(true)
-                el.appendChild(cloneChild.children[0])
-                next = next.nextElementSibling
             }
         })
 
