@@ -95,7 +95,7 @@
                 <div class="carousel-item active c-item">
                     <img src="{{ asset('assets/Picture/1.jpg') }}" class="d-block w-100 c-img" alt="slider_1">
                     <div class="carousel-caption d-flex flex-column justify-content-center h-100" style="top: 0">
-                        <h1>Communication on Space</h1>
+                        <h1 class="judul">Communication on Space</h1>
                     </div>
                 </div>
             </div>
@@ -230,26 +230,27 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top photo-service"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Branding/01 Research _ analysis.jpg') }}"
                                                 alt="Project">
+                                            <div class="overlay"></div>
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Branding/02 Brand Identity _ Guidelines.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Branding/03 Naming.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -261,35 +262,35 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/01 Logo.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/02 Mascot.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/03 Company Profile.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/04 Visual Identity.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/05 Promotion Media.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/06 Social Media.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Design/07 Packaging.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -301,27 +302,27 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Marketing/01 Marketing Strategy.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Marketing/04 Content Marketing.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Marketing/05 Social Marketing.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -333,22 +334,22 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Multimedia/01 Photo _ Videography.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Multimedia/02 Motion Graphics.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Multimedia/03 Commercial Video.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Multimedia/04 Content Creation.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -360,25 +361,25 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/01 Seminar.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/02 Meeting.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/03 Exhibition.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Event/05 Promotion.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -390,11 +391,11 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Website/01 UI_UX.jpg') }}" alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Website/02 Web Development.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -406,22 +407,22 @@
                                 <div class="col-12">
                                     <div class="row">
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Architecture/01 Interior _ Exterior Design.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Architecture/02 Consultation.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Architecture/03 Permit.jpg') }}"
                                                 alt="Project">
                                         </div>
                                         <div class="col-6 col-sm-2 py-2">
-                                            <img class="card-img-top"
+                                            <img class="photo-service"
                                                 src="{{ asset('assets/Service/Architecture/04 Construction.jpg') }}"
                                                 alt="Project">
                                         </div>
@@ -1033,228 +1034,234 @@
 
 
     <!-- Meet The Team -->
-    <div class="team padding-kraf mb-5" id="team">
-        <div class="container h-100">
+    <div class="team" id="team">
+        <div class="container h-100 p-5">
             <div class="row align-items-center h-100">
-                <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
+                <div class="col-12">
+                    <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
 
-                <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Director & 3D Architectur</h6>
-                                        <p style="font-size: 2vh">Alfazri</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="mailto:alfazri@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
+                    <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Director & 3D Architectur</h6>
+                                            <p style="font-size: 2vh">Alfazri</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:alfazri@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Art & Creative</h6>
+                                            <p style="font-size: 2vh">Encep Zainul</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/enzanimous"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:enza@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Video & Photography</h6>
+                                            <p style="font-size: 2vh">Aris Resmono</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:aris@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Graphic Designer</h6>
+                                            <p style="font-size: 2vh">Thio Agus</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/thioaguss"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:thio@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Animator</h6>
+                                            <p style="font-size: 2vh">Rio Tubagus</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:rio@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Illustrator</h6>
+                                            <p style="font-size: 2vh">Adil Poetra</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:adil@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">IT Developer</h6>
+                                            <p style="font-size: 2vh">Surya Dinarta</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:surya@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Content Creator</h6>
+                                            <p style="font-size: 2vh">Fadjar Maulana</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:fajar@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="col-md-3">
+                                    <div class="card bg-dark border-0 h-100 mx-3">
+                                        <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
+                                            alt="team">
+                                        <div class="card-body text-white lh-1">
+                                            <h6 class="text-secondary">Account Executive</h6>
+                                            <p style="font-size: 2vh">Muhammad Ilham</p>
+                                            <ul class="list-unstyled d-flex">
+                                                <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
+                                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                                </li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                                <li class="ms-3"><a class="link-light"
+                                                        href="mailto:ilham@madebykraf.com"><i
+                                                            class="fa-solid fa-envelope"></i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Art & Creative</h6>
-                                        <p style="font-size: 2vh">Encep Zainul</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/enzanimous"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light" href="mailto:enza@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Video & Photography</h6>
-                                        <p style="font-size: 2vh">Aris Resmono</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light" href="mailto:aris@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Graphic Designer</h6>
-                                        <p style="font-size: 2vh">Thio Agus</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/thioaguss"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light" href="mailto:thio@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Animator</h6>
-                                        <p style="font-size: 2vh">Rio Tubagus</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Illustrator</h6>
-                                        <p style="font-size: 2vh">Adil Poetra</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light" href="mailto:adil@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">IT Developer</h6>
-                                        <p style="font-size: 2vh">Surya Dinarta</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="mailto:surya@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Content Creator</h6>
-                                        <p style="font-size: 2vh">Fadjar Maulana</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="mailto:fajar@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="col-md-3">
-                                <div class="card bg-dark border-0 h-100 mx-3">
-                                    <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
-                                        alt="team">
-                                    <div class="card-body text-white lh-1">
-                                        <h6 class="text-secondary">Account Executive</h6>
-                                        <p style="font-size: 2vh">Muhammad Ilham</p>
-                                        <ul class="list-unstyled d-flex">
-                                            <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
-                                                    target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                            </li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="https://www.linkedin.com/company/madebykraf/"><i
-                                                        class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                            <li class="ms-3"><a class="link-light"
-                                                    href="mailto:ilham@madebykraf.com"><i
-                                                        class="fa-solid fa-envelope"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <a class="carousel-control-prev bg-transparent w-aut" href="#carouselTeam" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next bg-transparent w-aut" href="#carouselTeam" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
                     </div>
-                    <a class="carousel-control-prev bg-transparent w-aut" href="#carouselTeam" role="button"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next bg-transparent w-aut" href="#carouselTeam" role="button"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
                 </div>
             </div>
         </div>
-
     </div>
 
     <!-- Blog -->
@@ -1300,12 +1307,12 @@
             </div>
         </div> --}}
 
-    <!-- Footer -->
 
-    <footer class="footer padding-kraf" id="contact">
-        <div class="row" style="height: 100vh;width: 100vw">
-            <div class="col-md-8" style="background-color: #000;color: #fff;">
-                <div class="container h-100 p-5">
+    <!-- Footer -->
+    <div class="padding-kraf" id="contact">
+        <div class="row">
+            <div class="col-sm-8" style="background-color: #000;color: #fff;height: 100vh;">
+                <div class="container h-100 px-5">
                     <div class="row align-items-center h-100" style="padding-bottom: 100px">
                         <div class="col-12">
                             <div class="row mb-5 h-100">
@@ -1382,8 +1389,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4" style="background-color: #ff5700;color: #000;">
-                <div class="container h-100 p-5">
+            <div class="col-sm-4" style="background-color: #ff5700;color: #000;height: 100vh;">
+                <div class="container h-100 px-5">
                     <div class="row align-items-center h-100">
                         <div class="col-12">
                             <h1 class="display-6 fw-bold mb-5">Get in Touch!</h1>
@@ -1411,22 +1418,30 @@
                 </div>
             </div>
         </div>
-    </footer>
-    <div class="absolute text-white border-top">
-        <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 px-5 mt-4 border-top">
-            <p class="ms-3">&copy; 2023 Kraf. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/madebykraf"><i
+    </div>
+
+    {{-- <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Kraf. All rights reserved.</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/madebykraf"><i
                             class="fa-brands fa-instagram fa-lg"></i></a></li>
-                <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/madebykraf"><i
+                <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/madebykraf"><i
                             class="fa-brands fa-facebook fa-lg"></i></a></li>
-                <li class="ms-3"><a class="link-body-emphasis"
-                        href="https://www.linkedin.com/company/madebykraf/"><i
+                <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/company/madebykraf/"><i
                             class="fa-brands fa-linkedin fa-lg"></i></a></li>
             </ul>
-        </div>
-    </div>
-    </div>
+        </footer>
+    </div> --}}
+
 
     <!-- Back to top button -->
     <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
