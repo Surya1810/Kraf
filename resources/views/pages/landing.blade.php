@@ -11,7 +11,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
         <div class="container-fluid px-4 py-2">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ route('home') }}">
                 <img src="{{ asset('assets/Logo/logo-k-light-ok.png') }}" alt="Logo" height="45">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -124,37 +124,112 @@
         </section>
 
         <!-- Latest Project -->
-        <div class="latest-project">
-            <div id="Latest_Project" class="carousel carousel-fade">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div id="Latest_Project" class="carousel carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('assets/Banner/banner-ptm.jpg') }}" class="d-block w-100 c-img" alt="project">
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="project">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('assets/Picture/test.png') }}" class="d-block w-100 c-img" alt="slider_3">
+                <div class="carousel-item">
+                    <img src="{{ asset('assets/Banner/banner-milo.jpg') }}" class="d-block w-100 c-img" alt="slider_2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Latest_Project" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Poster Program-->
+        <div class="program" id="program">
+            <div class="h-100 p-5">
+                <div class="row align-items-center h-100">
+                    <div class="col-12">
+                        <h1 class="display-5 fw-bold">Program Kraf.</h1>
+                        <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner px-2" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Poster/poster.png') }}" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
+                                                    class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </a>
+                            <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#Latest_Project"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
 
@@ -175,8 +250,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <!-- Our Services -->
         <div class="services" id="services">
@@ -218,28 +291,28 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Branding/01 Research _ analysis.jpg') }}"
                                                     alt="Project">
                                                 <div class="overlay"></div>
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Branding/02 Brand Identity _ Guidelines.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Branding/03 Naming.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Branding/04 Brand Positioning.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -251,37 +324,37 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/01 Logo.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/02 Mascot.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/03 Company Profile.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/04 Visual Identity.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/05 Promotion Media.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/06 Social Media.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Design/07 Packaging.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -293,27 +366,27 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Marketing/01 Marketing Strategy.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Marketing/02 Digital Marketing.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Marketing/03 SEO _ SEM.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Marketing/04 Content Marketing.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Marketing/05 Social Marketing.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -325,22 +398,22 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Multimedia/01 Photo _ Videography.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Multimedia/02 Motion Graphics.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Multimedia/03 Commercial Video.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Multimedia/04 Content Creation.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -352,27 +425,27 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/01 Seminar.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/02 Meeting.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/03 Exhibition.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/04 Brand Activation.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Event/05 Promotion.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -384,12 +457,12 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Website/01 UI_UX.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Website/02 Web Development.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -401,22 +474,22 @@
                                     <div class="col-12">
                                         <div class="row">
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Architecture/01 Interior _ Exterior Design.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Architecture/02 Consultation.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Architecture/03 Permit.jpg') }}"
                                                     alt="Project">
                                             </div>
                                             <div class="col-6 col-sm-2 py-2">
-                                                <img class="photo-service"
+                                                <img class="photo-service rounded-3"
                                                     src="{{ asset('assets/Service/Architecture/04 Construction.jpg') }}"
                                                     alt="Project">
                                             </div>
@@ -431,7 +504,7 @@
         </div>
 
         <!-- Our Works -->
-        <div class="container padding-kraf" id="works">
+        <div class="px-3 padding-kraf" id="works">
             <h1 class="display-5 fw-bold">Kreasi & Inovasi Kraf.</h1>
             <nav class="navbar-work">
                 <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
@@ -801,85 +874,98 @@
         </div>
 
         <!-- Client -->
-        <div class="container pt-5">
-            <div class="row g-0 d-flex justify-content-center">
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/01 ZTE.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/02 Sesko.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/03 Samsung.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/04 Podomoro.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/05 Mitshubishi.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/06 MS Glow.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/07 Summarecon.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/08 Dago.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/09 BCA.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/10 Jasa.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/11 Honda Bdg.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/12 Grab.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/13 Daihatsu.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/14 BJB.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/15 Danamon.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/16 BUMN.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/17 Djarum.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/18 HDCI.png') }}" alt="Client" style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/19 Harley Siliwangi.png') }}" alt="Client"
-                        style="width: 100%;height: 100%">
-                </div>
-                <div class="col-3 col-md-1">
-                    <img src="{{ asset('assets/Client/20 HOG.png') }}" alt="Client" style="width: 100%;height: 100%">
+        <div class="client" id="client">
+            <div class="container h-100 p-5">
+                <div class="row align-items-center h-100">
+                    <div class="row g-0 d-flex justify-content-center">
+                        <h3 class="fw-bold text-center">Klien Kraf.</h3>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/01 ZTE.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/02 Sesko.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/03 Samsung.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/04 Podomoro.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/05 Mitshubishi.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/06 MS Glow.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/07 Summarecon.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/08 Dago.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/09 BCA.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/10 Jasa.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/11 Honda Bdg.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/12 Grab.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/13 Daihatsu.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/14 BJB.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/15 Danamon.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/16 BUMN.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/17 Djarum.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/18 HDCI.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/19 Harley Siliwangi.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                        <div class="col-3 col-md-1">
+                            <img src="{{ asset('assets/Client/20 HOG.png') }}" alt="Client"
+                                style="width: 100%;height: 100%">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-
         <!-- Meet The Team -->
-        <div class="team" id="team">
+        {{-- <div class="team" id="team">
             <div class="container h-100 p-5">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
@@ -1044,7 +1130,8 @@
                                                 <h6 class="text-secondary">IT Developer</h6>
                                                 <p style="font-size: 2vh">Surya Dinarta</p>
                                                 <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light" href="https://www.instagram.com/surya_dnrt"
+                                                    <li><a class="link-light"
+                                                            href="https://www.instagram.com/surya_dnrt"
                                                             target="_blank"><i
                                                                 class="fa-brands fa-instagram fa-lg"></i></a>
                                                     </li>
@@ -1068,7 +1155,8 @@
                                                 <h6 class="text-secondary">Content Creator</h6>
                                                 <p style="font-size: 2vh">Fadjar Maulana</p>
                                                 <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light" href="https://www.instagram.com/fadjarmlna"
+                                                    <li><a class="link-light"
+                                                            href="https://www.instagram.com/fadjarmlna"
                                                             target="_blank"><i
                                                                 class="fa-brands fa-instagram fa-lg"></i></a>
                                                     </li>
@@ -1086,8 +1174,8 @@
                                 <div class="carousel-item">
                                     <div class="col-md-3">
                                         <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/ilham_alt.png') }}" class="card-img-top"
-                                                alt="team">
+                                            <img src="{{ asset('assets/Profile/ilham_alt.png') }}"
+                                                class="card-img-top" alt="team">
                                             <div class="card-body text-white lh-1">
                                                 <h6 class="text-secondary">Account Executive</h6>
                                                 <p style="font-size: 2vh">Muhammad Ilham</p>
@@ -1120,6 +1208,191 @@
                     </div>
                 </div>
             </div>
+        </div> --}}
+        <div class="container">
+            <h3 class="fw-bold text-center">Team Kraf.</h3>
+            <div class="row g-0 d-flex justify-content-center">
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/alfazri.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Alfazri</h3>
+                            <p class="content-text">Director & 3D Architectur</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:alfazri@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/enza.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Encep Zainul</h3>
+                            <p class="content-text">Art & Creative</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/enzanimous" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:enza@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/thio.jpeg') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Thio Agus</h3>
+                            <p class="content-text">Graphic Designer</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/thioaguss" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:thio@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/surya.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Surya Dinarta</h3>
+                            <p class="content-text">IT Developer</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:surya@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/aris.jpg') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Aris Resmono</h3>
+                            <p class="content-text">Video & Photography</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/fadjar.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Fadjar Maulana</h3>
+                            <p class="content-text">Content Creator</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt" target="_blank"><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:surya@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/ilham_alt.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Muhammad Ilham</h3>
+                            <p class="content-text">Account Executive</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/adil.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Adil Poetra</h3>
+                            <p class="content-text">Illustrator</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:adil@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/rio.png') }}">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Rio Tubagus</h3>
+                            <p class="content-text">Animator</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
+                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
+                                            class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
@@ -1132,7 +1405,7 @@
                             <div class="col-12">
                                 <div class="row mb-5 h-100">
                                     <div class="col-12 h-100">
-                                        <p class="text-secondary">Ready to work with us?</p>
+                                        <p class="text-secondary mt-5">Ready to work with us?</p>
                                         <p class="display-3 responsive-font"><a
                                                 href="mailto:hi@madebykraf.com?subject=Mail from Website"
                                                 class="link-putih">hi@madebykraf.com</a>
