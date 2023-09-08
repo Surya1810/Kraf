@@ -156,19 +156,20 @@
             <div class="h-100 p-5">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
-                        <h1 class="display-5 fw-bold">Program Kraf.</h1>
+                        <h1 class="display-5 fw-bold">Made by Kraf.</h1>
                         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner px-2" role="listbox">
                                 <div class="carousel-item active">
                                     <div class="col-md-3 px-2">
                                         <div class="card border-0">
                                             <div class="card-img">
-                                                <img src="{{ asset('assets/Poster/poster.png') }}" class="img-fluid">
+                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}"
+                                                    class="img-fluid">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
+                                {{-- <div class="carousel-item">
                                     <div class="col-md-3 px-2">
                                         <div class="card border-0">
                                             <div class="card-img">
@@ -217,7 +218,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                             <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
                                 data-bs-slide="prev">
@@ -504,7 +505,7 @@
         </div>
 
         <!-- Our Works -->
-        <div class="px-3 padding-kraf" id="works">
+        <div class="container padding-kraf" id="works">
             <h1 class="display-5 fw-bold">Kreasi & Inovasi Kraf.</h1>
             <nav class="navbar-work">
                 <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
