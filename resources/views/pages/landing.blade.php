@@ -92,35 +92,6 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="carousel-item c-item">
-                    <img src="{{ asset('assets/Picture/2.jpg') }}" class="d-block w-100 c-img" alt="slider_2">
-                    <div
-                        class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
-
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="judul">Attractive design from concept to final result</h1>
-                                <a href="#" class="btn btn btn-dark uppercase px-4 py-3">View More <i
-                                        class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item c-item">
-                    <img src="{{ asset('assets/Picture/3.jpg') }}" class="d-block w-100 c-img" alt="slider_3">
-                    <div
-                        class="carousel-caption d-flex h-100 align-items-end justify-content-start text-left padding-bottom">
-
-                        <div class="row">
-                            <div class="col-12">
-                                <h1 class="judul">Project tactics and strategies for all agencies
-                                </h1>
-                                <a href="#" class="btn zbtn btn-dark uppercase px-4 py-3">View More <i
-                                        class="fa-solid fa-arrow-right" style="color: #ff5700"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
         </section>
 
         <!-- Latest Project -->
@@ -135,10 +106,10 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/Banner/banner-ptm.jpg') }}" class="d-block w-100 c-img" alt="project">
+                    <img src="{{ asset('assets/Banner/banner-ptm.jpg') }}" class="w-100 c-banner" alt="project">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/Banner/banner-milo.jpg') }}" class="d-block w-100 c-img" alt="slider_2">
+                    <img src="{{ asset('assets/Banner/banner-milo.jpg') }}" class="w-100 c-banner" alt="project">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project" data-bs-slide="prev">
@@ -966,252 +937,8 @@
         </div>
 
         <!-- Meet The Team -->
-        {{-- <div class="team" id="team">
-            <div class="container h-100 p-5">
-                <div class="row align-items-center h-100">
-                    <div class="col-12">
-                        <h1 class="display-5 fw-bold mb-3">Meet the Team</h1>
-
-                        <div id="carouselTeam" class="carousel carouselTeam carousel-dark slide" data-bs-ride="true">
-                            <div class="carousel-inner" role="listbox">
-                                <div class="carousel-item active">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/alfazri.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Director & 3D Architectur</h6>
-                                                <p style="font-size: 2vh">Alfazri</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/mynamealfazri"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:alfazri@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/enza.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Art & Creative</h6>
-                                                <p style="font-size: 2vh">Encep Zainul</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light" href="https://www.instagram.com/enzanimous"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:enza@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/aris.jpg') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Video & Photography</h6>
-                                                <p style="font-size: 2vh">Aris Resmono</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/mynamealfazri"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:aris@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/thio.jpeg') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Graphic Designer</h6>
-                                                <p style="font-size: 2vh">Thio Agus</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light" href="https://www.instagram.com/thioaguss"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:thio@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/rio.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Animator</h6>
-                                                <p style="font-size: 2vh">Rio Tubagus</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/mynamealfazri"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:rio@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/adil.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Illustrator</h6>
-                                                <p style="font-size: 2vh">Adil Poetra</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/mynamealfazri"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:adil@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/surya.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">IT Developer</h6>
-                                                <p style="font-size: 2vh">Surya Dinarta</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/surya_dnrt"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:surya@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/fadjar.png') }}" class="card-img-top"
-                                                alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Content Creator</h6>
-                                                <p style="font-size: 2vh">Fadjar Maulana</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light"
-                                                            href="https://www.instagram.com/fadjarmlna"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:fajar@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3">
-                                        <div class="card bg-dark border-0 h-100 mx-3">
-                                            <img src="{{ asset('assets/Profile/ilham_alt.png') }}"
-                                                class="card-img-top" alt="team">
-                                            <div class="card-body text-white lh-1">
-                                                <h6 class="text-secondary">Account Executive</h6>
-                                                <p style="font-size: 2vh">Muhammad Ilham</p>
-                                                <ul class="list-unstyled d-flex">
-                                                    <li><a class="link-light" href="https://www.instagram.com/m.ilhammv"
-                                                            target="_blank"><i
-                                                                class="fa-brands fa-instagram fa-lg"></i></a>
-                                                    </li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="https://www.linkedin.com/company/madebykraf/"><i
-                                                                class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                                    <li class="ms-3"><a class="link-light"
-                                                            href="mailto:ilham@madebykraf.com"><i
-                                                                class="fa-solid fa-envelope"></i></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev bg-transparent w-aut" href="#carouselTeam" role="button"
-                                data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            </a>
-                            <a class="carousel-control-next bg-transparent w-aut" href="#carouselTeam" role="button"
-                                data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
         <div class="container">
-            <h3 class="fw-bold text-center">Team Kraf.</h3>
+            <h3 class="fw-bold text-center">Tim Kraf.</h3>
             <div class="row g-0 d-flex justify-content-center">
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
@@ -1396,10 +1123,9 @@
             </div>
         </div>
 
-
         <!-- Footer -->
         <div class="padding-kraf" id="contact">
-            <div class="row">
+            <div class="row w-100 g-0">
                 <div class="col-sm-8" style="background-color: #000;color: #fff;height: 100vh;">
                     <div class="container h-100 px-5">
                         <div class="row align-items-center h-100" style="padding-bottom: 100px">
@@ -1508,118 +1234,82 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        {{-- <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24">
-                        <use xlink:href="#bootstrap" />
-                    </svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Kraf. All rights reserved.</span>
-            </div>
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa-solid fa-arrow-up fa-2xl text-center" style="color: #ff5700"></i>
+    </button>
+    <!-- Whatsapp button -->
+    <button type="button" class="btn btn-dark btn-floating btn-lg border-0" id="whatsapp">
+        <a href="https://wa.me/62818212023" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-center"
+                style="color: #fff;margin-top: 10px;"></i></a>
+    </button>
+@endsection
 
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="link-dark" href="https://www.instagram.com/madebykraf"><i
-                            class="fa-brands fa-instagram fa-lg"></i></a></li>
-                <li class="ms-3"><a class="link-dark" href="https://www.facebook.com/madebykraf"><i
-                            class="fa-brands fa-facebook fa-lg"></i></a></li>
-                <li class="ms-3"><a class="link-dark" href="https://www.linkedin.com/company/madebykraf/"><i
-                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-            </ul>
-        </footer>
-    </div> --}}
+@push('scripts')
+    <script>
+        // Navbar
+        const navEl = document.querySelector('.navbar');
+        var element = document.getElementById("homee");
 
-
-        <!-- Back to top button -->
-        <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
-            <i class="fa-solid fa-arrow-up fa-2xl text-center" style="color: #ff5700"></i>
-        </button>
-        <!-- Whatsapp button -->
-        <button class="btn btn-floating btn-lg" id="whatsapp">
-            <a href="https://wa.me/62818212023" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-center"
-                    style="color: #fff;margin-top: 10px;"></i></a>
-        </button>
-    @endsection
-
-    @push('scripts')
-        <script>
-            // Navbar
-            const navEl = document.querySelector('.navbar');
-            var element = document.getElementById("homee");
-
-            window.addEventListener('scroll', () => {
-                if (window.scrollY >= 56) {
-                    element.classList.remove("active");
-                    navEl.classList.add('navbar-scrolled', 'navbar-light');
-                    navEl.classList.remove('navbar-dark');
-                    $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-dark-ok.png') }}");
-                } else if (window.scrollY < 56) {
-                    element.classList.add("active");
-                    navEl.classList.remove('navbar-light', 'navbar-scrolled');
-                    navEl.classList.add('navbar-dark');
-                    $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-light-ok.png') }}");
-                }
-            })
-
-            // Works Carousel
-            let items = document.querySelectorAll('#recipeCarousel .carousel-item')
-
-            items.forEach((el) => {
-                const minPerSlide = 4
-                let next = el.nextElementSibling
-                for (var i = 1; i < minPerSlide; i++) {
-                    if (!next) {
-                        // wrap carousel by using first child
-                        next = items[0]
-                    }
-                    let cloneChild = next.cloneNode(true)
-                    el.appendChild(cloneChild.children[0])
-                    next = next.nextElementSibling
-                }
-            })
-
-            // Team
-            let test = document.querySelectorAll('#carouselTeam .carousel-item')
-
-            test.forEach((el) => {
-                const minPerSlide = 4
-                let next = el.nextElementSibling
-                for (var i = 1; i < minPerSlide; i++) {
-                    if (!next) {
-                        // wrap carousel by using first child
-                        next = test[0]
-                    }
-                    let cloneChild = next.cloneNode(true)
-                    el.appendChild(cloneChild.children[0])
-                    next = next.nextElementSibling
-                }
-            })
-
-            //Back to Top Button
-            let mybutton = document.getElementById("btn-back-to-top");
-
-            window.onscroll = function() {
-                scrollFunction();
-            };
-
-            function scrollFunction() {
-                if (
-                    document.body.scrollTop > 20 ||
-                    document.documentElement.scrollTop > 20
-                ) {
-                    mybutton.style.display = "block";
-                } else {
-                    mybutton.style.display = "none";
-                }
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                element.classList.remove("active");
+                navEl.classList.add('navbar-scrolled', 'navbar-light');
+                navEl.classList.remove('navbar-dark');
+                $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-dark-ok.png') }}");
+            } else if (window.scrollY < 56) {
+                element.classList.add("active");
+                navEl.classList.remove('navbar-light', 'navbar-scrolled');
+                navEl.classList.add('navbar-dark');
+                $(".navbar-brand img").attr("src", "{{ asset('assets/Logo/logo-k-light-ok.png') }}");
             }
-            // When the user clicks on the button, scroll to the top of the document
-            mybutton.addEventListener("click", backToTop);
+        })
 
-            function backToTop() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
+        // Works Carousel
+        let items = document.querySelectorAll('#recipeCarousel .carousel-item')
+
+        items.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0]
+                }
+                let cloneChild = next.cloneNode(true)
+                el.appendChild(cloneChild.children[0])
+                next = next.nextElementSibling
             }
-        </script>
-    @endpush
+        })
+
+        //Back to Top Button
+        let mybutton = document.getElementById("btn-back-to-top");
+        let wabutton = document.getElementById("whatsapp");
+
+        window.onscroll = function() {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 20 ||
+                document.documentElement.scrollTop > 20
+            ) {
+                mybutton.style.display = "block";
+                wabutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+                wabutton.style.display = "none";
+            }
+        }
+        // When the user clicks on the button, scroll to the top of the document
+        mybutton.addEventListener("click", backToTop);
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+@endpush
