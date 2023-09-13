@@ -38,12 +38,6 @@
                     </li>
                 </ul>
             </div>
-            <div class="text-end">
-                <a class="ml-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                    aria-controls="offcanvasRight">
-                    <i class="fa-solid fa-arrow-left fa-2xl" style="color: #ff5700"></i>
-                </a>
-            </div>
         </div>
     </nav>
 
@@ -65,14 +59,14 @@
             <div class="mt-5">
                 <h5 class="mb-2">Follow Us</h5>
                 <ul class="list-unstyled d-flex">
-                    <li><a class="text-white" href="https://www.instagram.com/madebykraf"><i
+                    <li><a class="text-white" href="https://www.instagram.com/madebykraf" target="_blank"><i
                                 class="fa-brands fa-instagram fa-lg"></i></a>
                     </li>
-                    <li class="ms-3"><a class="text-white" href="https://www.facebook.com/madebykraf"><i
+                    <li class="ms-3"><a class="text-white" href="https://www.facebook.com/madebykraf" target="_blank"><i
                                 class="fa-brands fa-facebook fa-lg"></i></a>
                     </li>
-                    <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/company/madebykraf/"><i
-                                class="fa-brands fa-linkedin fa-lg"></i></a>
+                    <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/company/madebykraf/"
+                            target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
                     </li>
                 </ul>
             </div>
@@ -101,15 +95,19 @@
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="1"
                     aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                {{-- <button type="button" data-bs-target="#Latest_Project" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button> --}}
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{ asset('assets/Banner/banner-ptm.jpg') }}" class="w-100 c-banner" alt="project">
+                    <a href="#" target="_blank">
+                        <img src="{{ asset('assets/Banner/banner-ptm.jpg') }}" class="w-100 c-banner" alt="Banner_PTM">
+                    </a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{ asset('assets/Banner/banner-milo.jpg') }}" class="w-100 c-banner" alt="project">
+                    <a href="#" target="_blank">
+                        <img src="{{ asset('assets/Banner/banner-milo.jpg') }}" class="w-100 c-banner" alt="Banner_Milo">
+                    </a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#Latest_Project" data-bs-slide="prev">
@@ -124,28 +122,30 @@
 
         <!-- Poster Program-->
         <div class="program" id="program">
-            <div class="h-100 p-5">
+            <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
-                        <h1 class="display-5 fw-bold">Made by Kraf.</h1>
+                        <h1 class="display-5 fw-bold mb-5">Made by Kraf.</h1>
                         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner px-2" role="listbox">
+                            <div class="carousel-inner px-3" role="listbox">
                                 <div class="carousel-item active">
                                     <div class="col-md-3 px-2">
-                                        <div class="card border-0">
-                                            <div class="card-img">
-                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}"
-                                                    class="img-fluid">
+                                        <a href="#" target="_blank">
+                                            <div class="card border-0">
+                                                <div class="card-img">
+                                                    <img src="{{ asset('assets/Poster/Kaloberaksi-Poster-02.webp') }}"
+                                                        class="img-fluid" alt="Poste_PTM">
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
-                                {{-- <div class="carousel-item">
+                                <div class="carousel-item">
                                     <div class="col-md-3 px-2">
                                         <div class="card border-0">
                                             <div class="card-img">
-                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                                    class="img-fluid">
+                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
+                                                    alt="coming_soon">
                                             </div>
                                         </div>
                                     </div>
@@ -154,8 +154,8 @@
                                     <div class="col-md-3 px-2">
                                         <div class="card border-0">
                                             <div class="card-img">
-                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                                    class="img-fluid">
+                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
+                                                    alt="coming_soon">
                                             </div>
                                         </div>
                                     </div>
@@ -164,32 +164,12 @@
                                     <div class="col-md-3 px-2">
                                         <div class="card border-0">
                                             <div class="card-img">
-                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                                    class="img-fluid">
+                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
+                                                    alt="coming_soon">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3 px-2">
-                                        <div class="card border-0">
-                                            <div class="card-img">
-                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="col-md-3 px-2">
-                                        <div class="card border-0">
-                                            <div class="card-img">
-                                                <img src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
-                                                    class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
                             </div>
                             <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
                                 data-bs-slide="prev">
@@ -228,7 +208,7 @@
             <div class="container h-100">
                 <div class="row align-items-center h-100">
                     <div class="col-12">
-                        <h1 class="display-5 fw-bold mb-3">Layanan Kraf.</h1>
+                        <h1 class="display-5 fw-bold mb-5">Layanan Kraf.</h1>
                         <div class="d-flex align-items-start serv">
                             <div class="nav navbar-services nav-pills flex-column" id="v-pills-tab" role="tablist"
                                 aria-orientation="vertical">
@@ -476,8 +456,8 @@
         </div>
 
         <!-- Our Works -->
-        <div class="container padding-kraf" id="works">
-            <h1 class="display-5 fw-bold">Kreasi & Inovasi Kraf.</h1>
+        <div class="container" id="works">
+            <h1 class="display-5 fw-bold mb-5">Kreasi & Inovasi Kraf.</h1>
             <nav class="navbar-work">
                 <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
                     <button class="nav-link active" id="branding-tab" data-bs-toggle="tab" data-bs-target="#branding"
@@ -943,19 +923,20 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/alfazri.png') }}">
+                            src="{{ asset('assets/Profile/alfazri.png') }}" alt="alfazri">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Alfazri</h3>
                             <p class="content-text">Director & 3D Architectur</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri" target="_blank"
+                                        aria-label="alfazri's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:alfazri@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="alfazri's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light" href="mailto:alfazri@madebykraf.com"
+                                        aria-label="alfazri's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -963,19 +944,19 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/enza.png') }}">
+                            src="{{ asset('assets/Profile/enza.png') }}" alt="enza">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Encep Zainul</h3>
                             <p class="content-text">Art & Creative</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/enzanimous" target="_blank"><i
-                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/enzanimous" target="_blank"
+                                        aria-label="enza's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:enza@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="enza's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:enza@madebykraf.com"
+                                        aria-label="enza's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -983,19 +964,19 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/thio.jpeg') }}">
+                            src="{{ asset('assets/Profile/thio.jpeg') }}" alt="thio">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Thio Agus</h3>
                             <p class="content-text">Graphic Designer</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/thioaguss" target="_blank"><i
-                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/thioaguss" target="_blank"
+                                        aria-label="thio's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:thio@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="thio's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:thio@madebykraf.com"
+                                        aria-label="thio's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1003,39 +984,19 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/surya.png') }}">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Surya Dinarta</h3>
-                            <p class="content-text">IT Developer</p>
-                            <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt" target="_blank"><i
-                                            class="fa-brands fa-instagram fa-lg"></i></a>
-                                </li>
-                                <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:surya@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-2 p-2">
-                    <div class="content image">
-                        <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/aris.jpg') }}">
+                            src="{{ asset('assets/Profile/aris.jpg') }}" alt="aris">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Aris Resmono</h3>
                             <p class="content-text">Video & Photography</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/arisresmonoo" target="_blank"
+                                        aria-label="aris's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="aris's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:aris@madebykraf.com"
+                                        aria-label="aris's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1043,19 +1004,40 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/fadjar.png') }}">
+                            src="{{ asset('assets/Profile/surya.png') }}" alt="surya">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Surya Dinarta</h3>
+                            <p class="content-text">IT Developer</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt" target="_blank"
+                                        aria-label="surya's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light" href="https://www.linkedin.com/in/suryadinarta"
+                                        target="_blank" aria-label="surya's linkedin"><i
+                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:surya@madebykraf.com"
+                                        aria-label="surya's email"><i class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/fadjar.png') }}" alt="fadjar">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Fadjar Maulana</h3>
                             <p class="content-text">Content Creator</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/surya_dnrt" target="_blank"><i
-                                            class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/fadjarmlna" target="_blank"
+                                        aria-label="fadjar's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:surya@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="fadjar's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light" href="mailto:fadjar@madebykraf.com"
+                                        aria-label="fadjar's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1063,39 +1045,20 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/ilham_alt.png') }}">
-                        <div class="content-details fadeIn-bottom">
-                            <h3 class="content-title">Muhammad Ilham</h3>
-                            <p class="content-text">Account Executive</p>
-                            <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
-                                </li>
-                                <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-2 p-2">
-                    <div class="content image">
-                        <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/adil.png') }}">
+                            src="{{ asset('assets/Profile/adil.png') }}" alt="adil">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Adil Poetra</h3>
                             <p class="content-text">Illustrator</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/adilpoetra" target="_blank"
+                                        aria-label="adil's instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:adil@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="adil's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light" href="mailto:adil@madebykraf.com"
+                                        aria-label="adil's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1103,19 +1066,41 @@
                 <div class="col-4 col-sm-2 p-2">
                     <div class="content image">
                         <div class="content-overlay"></div> <img class="content-image"
-                            src="{{ asset('assets/Profile/rio.png') }}">
+                            src="{{ asset('assets/Profile/rio.png') }}" alt="rio">
                         <div class="content-details fadeIn-bottom">
                             <h3 class="content-title">Rio Tubagus</h3>
                             <p class="content-text">Animator</p>
                             <ul class="list-unstyled d-flex justify-content-center">
-                                <li><a class="link-light" href="https://www.instagram.com/mynamealfazri"
-                                        target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                <li><a class="link-light" href="https://www.instagram.com/riotubaguspratama"
+                                        target="_blank" aria-label="rio's instagram"><i
+                                            class="fa-brands fa-instagram fa-lg"></i></a>
                                 </li>
                                 <li class="ms-3"><a class="link-light"
-                                        href="https://www.linkedin.com/company/madebykraf/"><i
-                                            class="fa-brands fa-linkedin fa-lg"></i></a></li>
-                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"><i
-                                            class="fa-solid fa-envelope"></i></a></li>
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="rio's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a></li>
+                                <li class="ms-3"><a class="link-light" href="mailto:rio@madebykraf.com"
+                                        aria-label="rio's email"><i class="fa-solid fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-2 p-2">
+                    <div class="content image">
+                        <div class="content-overlay"></div> <img class="content-image"
+                            src="{{ asset('assets/Profile/ilham_alt.png') }}" alt="ilham">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Muhammad Ilham</h3>
+                            <p class="content-text">Account Executive</p>
+                            <ul class="list-unstyled d-flex justify-content-center">
+                                <li><a class="link-light" href="https://www.instagram.com/m.ilhammv" target="_blank"
+                                        aria-label="Ilham's Instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light"
+                                        href="https://www.linkedin.com/company/madebykraf/" target="_blank"
+                                        aria-label="ilham's linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                                </li>
+                                <li class="ms-3"><a class="link-light" href="mailto:ilham@madebykraf.com"
+                                        aria-label="ilham's email"><i class="fa-solid fa-envelope"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -1124,11 +1109,11 @@
         </div>
 
         <!-- Footer -->
-        <div class="padding-kraf" id="contact">
+        <div class="mt-5" id="contact">
             <div class="row w-100 g-0">
                 <div class="col-sm-8" style="background-color: #000;color: #fff;height: 100vh;">
                     <div class="container h-100 px-5">
-                        <div class="row align-items-center h-100" style="padding-bottom: 100px">
+                        <div class="row align-items-center h-100">
                             <div class="col-12">
                                 <div class="row mb-5 h-100">
                                     <div class="col-12 h-100">
@@ -1153,7 +1138,7 @@
                                     </div>
                                     <div class="col-md-3"></div>
                                     <div class="col-6 col-md-2 mb-3">
-                                        <h5>Our Services</h5>
+                                        <h5>Layanan Kraf.</h5>
                                         <ul class="nav flex-column">
                                             <li class="nav-item mb-2"><a href="#services"
                                                     class="nav-link p-0 text-secondary">Branding</a>
@@ -1177,7 +1162,7 @@
                                     </div>
 
                                     <div class="col-6 col-md-2 mb-3">
-                                        <h5>Our Works</h5>
+                                        <h5>Kreasi & Inovasi Kraf.</h5>
                                         <ul class="nav flex-column">
                                             <li class="nav-item mb-2"><a href="#works"
                                                     class="nav-link p-0 text-secondary">Branding</a>
@@ -1218,7 +1203,7 @@
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7981461943214!2d107.6348591!3d-6.9147210999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7c42b44962d%3A0xe0107bfb2e71bb22!2sMade%20by%20Kraf.!5e0!3m2!1sid!2sid!4v1693218264202!5m2!1sid!2sid"
                                     style="border:0; height:150px; width: 100%" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
+                                    referrerpolicy="no-referrer-when-downgrade" title="Maps">
                                 </iframe>
                                 <h3 class="mt-5">Grha PHRI Jabar</h3>
                                 <p style="font-size: 14px"><i class="fa-solid fa-location-dot"></i> Jl. Sukabumi No. 42,
@@ -1238,12 +1223,17 @@
 
     <!-- Back to top button -->
     <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fa-solid fa-arrow-up fa-2xl text-center" style="color: #ff5700"></i>
+        <i class="fas fa-angle-up fa-2xl text-center" style="color: #ff5700"></i>
     </button>
     <!-- Whatsapp button -->
     <button type="button" class="btn btn-dark btn-floating btn-lg border-0" id="whatsapp">
         <a href="https://wa.me/62818212023" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-center"
                 style="color: #fff;margin-top: 10px;"></i></a>
+    </button>
+    <!-- Offcanvas button -->
+    <button class="btn btn-dark btn-floating btn-lg" type="button" id="offcanvas" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <i class="fas fa-angle-left fa-2xl" style="color: #ff5700"></i>
     </button>
 @endsection
 
