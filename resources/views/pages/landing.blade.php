@@ -134,7 +134,7 @@
                                             <div class="card border-0">
                                                 <div class="card-img">
                                                     <img src="{{ asset('assets/Poster/Kaloberaksi-Poster-02.webp') }}"
-                                                        class="img-fluid" alt="Poste_PTM">
+                                                        class="img-fluid" alt="Poster_PTM" aria-label="PTM">
                                                 </div>
                                             </div>
                                         </a>
@@ -145,7 +145,7 @@
                                         <div class="card border-0">
                                             <div class="card-img">
                                                 <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
-                                                    alt="coming_soon">
+                                                    alt="coming_soon" aria-label="coming soon">
                                             </div>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@
                                         <div class="card border-0">
                                             <div class="card-img">
                                                 <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
-                                                    alt="coming_soon">
+                                                    alt="coming_soon" aria-label="coming soon">
                                             </div>
                                         </div>
                                     </div>
@@ -165,18 +165,18 @@
                                         <div class="card border-0">
                                             <div class="card-img">
                                                 <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
-                                                    alt="coming_soon">
+                                                    alt="coming_soon" aria-label="coming soon">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button"
-                                data-bs-slide="prev">
+                                data-bs-slide="prev" aria-label="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             </a>
                             <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button"
-                                data-bs-slide="next">
+                                data-bs-slide="next" aria-label="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             </a>
                         </div>
@@ -1117,7 +1117,7 @@
                             <div class="col-12">
                                 <div class="row mb-5 h-100">
                                     <div class="col-12 h-100">
-                                        <p class="text-secondary mt-5">Ready to work with us?</p>
+                                        <p class="text-secondary mt-5">Siap bekerja bersama kraf.?</p>
                                         <p class="display-3 responsive-font"><a
                                                 href="mailto:hi@madebykraf.com?subject=Mail from Website"
                                                 class="link-putih">hi@madebykraf.com</a>
@@ -1193,7 +1193,7 @@
                     <div class="container h-100 px-5">
                         <div class="row align-items-center h-100">
                             <div class="col-12">
-                                <h1 class="display-6 fw-bold mb-5">Get in Touch!</h1>
+                                <h1 class="display-6 fw-bold mb-5">Hubungi kraf.</h1>
                                 <p class="mb-5">Kami akan dengan senang hati menyambut Anda di kantor kami. Kami
                                     bahkan dapat
                                     mengunjungi kantor
@@ -1222,17 +1222,17 @@
     </div>
 
     <!-- Back to top button -->
-    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top">
+    <button type="button" class="btn btn-dark btn-floating btn-lg" id="btn-back-to-top" aria-label="Back to Top">
         <i class="fas fa-angle-up fa-2xl text-center" style="color: #ff5700"></i>
     </button>
     <!-- Whatsapp button -->
-    <button type="button" class="btn btn-dark btn-floating btn-lg border-0" id="whatsapp">
+    <button type="button" class="btn btn-dark btn-floating btn-lg border-0" id="whatsapp" aria-label="Whatsapp">
         <a href="https://wa.me/62818212023" target="_blank"><i class="fa-brands fa-whatsapp fa-2xl text-center"
                 style="color: #fff;margin-top: 10px;"></i></a>
     </button>
     <!-- Offcanvas button -->
     <button class="btn btn-dark btn-floating btn-lg" type="button" id="offcanvas" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-label="Offcanvas">
         <i class="fas fa-angle-left fa-2xl" style="color: #ff5700"></i>
     </button>
 @endsection
