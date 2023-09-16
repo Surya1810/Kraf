@@ -128,7 +128,7 @@
                         <h1 class="display-5 fw-bold mb-5">Made by Kraf.</h1>
                         <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner px-3" role="listbox">
-                                <div class="carousel-item active">
+                                {{-- <div class="carousel-item active">
                                     <div class="col-md-3 px-2">
                                         <a href="#" target="_blank">
                                             <div class="card border-0">
@@ -138,6 +138,16 @@
                                                 </div>
                                             </div>
                                         </a>
+                                    </div>
+                                </div> --}}
+                                <div class="carousel-item active">
+                                    <div class="col-md-3 px-2">
+                                        <div class="card border-0">
+                                            <div class="card-img">
+                                                <img src="{{ asset('assets/Poster/soon_poster.jpeg') }}" class="img-fluid"
+                                                    alt="coming_soon" aria-label="coming soon">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
