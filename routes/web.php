@@ -20,7 +20,7 @@ use App\Mail\ContactMail;
 //     return view('welcome');
 // });
 
-Route::get('/check', function () {
+Route::get('/', function () {
     return view('pages.landing');
 })->name('home');
 
