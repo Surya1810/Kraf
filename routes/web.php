@@ -20,13 +20,13 @@ use App\Mail\ContactMail;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
+Route::get('/check', function () {
     return view('pages.landing');
 })->name('home');
 
-// Route::get('/', function () {
-//     return view('pages.maintanance');
-// });
+Route::get('/', function () {
+    return view('pages.maintanance');
+});
 
 // Contact Us
 Route::post('/send', [ContactController::class, 'send'])->name('send.email');

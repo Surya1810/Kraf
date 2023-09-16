@@ -487,9 +487,9 @@
                                     <img class="card-img-top" src="{{ asset('assets/Picture/project_1.jpg') }}"
                                         alt="Project">
                                 </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                <div class="card-img-overlay d-flex">
+                                    <div class="align-self-center mx-auto">
+                                        <div class="loader"></div>
                                     </div>
                                 </div>
                             </div>
@@ -500,9 +500,9 @@
                                     <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-3.jpg') }}"
                                         alt="Project">
                                 </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                <div class="card-img-overlay d-flex">
+                                    <div class="align-self-center mx-auto">
+                                        <div class="loader"></div>
                                     </div>
                                 </div>
                             </div>
@@ -513,9 +513,9 @@
                                     <img class="card-img-top" src="{{ asset('assets/Picture/blog-img-6.jpg') }}"
                                         alt="Project">
                                 </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                <div class="card-img-overlay d-flex">
+                                    <div class="align-self-center mx-auto">
+                                        <div class="loader"></div>
                                     </div>
                                 </div>
                             </div>
@@ -526,9 +526,9 @@
                                     <img class="card-img-top" src="{{ asset('assets/Picture/h1-port-list-img4.jpg') }}"
                                         alt="Project">
                                 </div>
-                                <div class="card-img-overlay">
-                                    <div class="d-flex flex-column h-100 text-white text-shadow-1 justify-content-end">
-                                        <h4 style="font-size: 2vw;">We Build Great Things</h4>
+                                <div class="card-img-overlay d-flex">
+                                    <div class="align-self-center mx-auto">
+                                        <div class="loader"></div>
                                     </div>
                                 </div>
                             </div>

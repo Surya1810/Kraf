@@ -379,6 +379,24 @@ iframe {
     font-weight: bold;
 }
 
+.loader {
+    border: 12px solid #808080; /* Light grey */
+    border-top: 12px solid #ff5700; /* Blue */
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 /* RESPONSIVE */
 @media screen and (min-width: 768px) {
     .navbar-services {
@@ -443,10 +461,33 @@ iframe {
         color: #fff;
         font-size: 0.5em;
     }
+
+    .loader {
+        border: 8px solid #808080; /* Light grey */
+        border-top: 8px solid #ff5700; /* Blue */
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
 }
 
 /* FORM CONTROL FOCUS */
 .form-control:focus {
     border-color: #ff5700;
     box-shadow: 0 0 0 0.2rem rgba(255, 87, 0, 0.25);
+}
+
+.card-img-top {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
 }
