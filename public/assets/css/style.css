@@ -9,8 +9,8 @@ html {
     height: -webkit-fill-available;
 }
 body {
-    display: flex;
-    max-width: 1440px;
+    /* display: flex; */
+    /* max-width: 1440px; */
     height: 100svh;
     height: -webkit-fill-available;
 }

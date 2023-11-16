@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\ContactController;
 use App\Mail\ContactMail;
+use App\Models\Blog;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,12 +23,20 @@ use App\Mail\ContactMail;
 // });
 
 Route::get('/', function () {
-    return view('pages.landing');
+    $blogs = Blog::where('status', 1)->where('deleted_at', NULL)->take(4)->get();
+    // dd($blogs[1]->slug);
+    return view('pages.landing', compact('blogs'));
 })->name('home');
 
-// Route::get('/', function () {
-//     return view('pages.maintanance');
-// });
+// Blog
+Route::resource('blog', BlogController::class);
+Route::get('/post/{slug}', [BlogController::class, 'post'])->name('blog.post');
+
+
+// Maintanance
+Route::get('/maintanance', function () {
+    return view('pages.maintanance');
+});
 
 // Contact Us
-Route::post('/send', [ContactController::class, 'send'])->name('send.email');
+// Route::post('/send', [ContactController::class, 'send'])->name('send.email');
