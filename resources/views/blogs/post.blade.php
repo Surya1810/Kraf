@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <img src="{{ asset('storage/post/' . $data->image) }}" class="img-fluid w-100 post-image " alt="{{ $post->title }}">
+    <img src="{{ asset('storage/post/' . $post->image) }}" class="img-fluid w-100 post-image " alt="{{ $post->title }}">
 
     <!-- Meet The Team -->
     <div class="container" id="works">
