@@ -1123,10 +1123,10 @@
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title"><strong>{{ $data->title }}</strong></h5>
-                                <small>{{ $data->user->name }} -
+                                <small class="text-muted">{{ $data->user->name }} -
                                     {{ $data->updated_at->toFormattedDateString('d/m/y') }}</small>
-                                <p class="card-text">
-                                    {{ $data->desc }}
+                                <p class="card-text mt-3">
+                                    {!! html_entity_decode($data->desc) !!}
                                 </p>
                                 <a href="{{ route('blog.post', $data->slug) }}" class="btn btn-dark rounded-5">Read
                                     More</a>

@@ -96,13 +96,8 @@
                         <div class="text-muted fst-italic mb-2">Posted on
                             {{ $post->updated_at->toFormattedDateString('d/m/y') }} by {{ $post->user->name }}
                         </div>
-                        <!-- Post categories-->
-                        @php
-                            $tags = explode(',', $post->tag);
-                        @endphp
-                        @foreach ($tags as $tag)
-                            <span class="badge bg-secondary text-decoration-none link-light">{{ $tag }}</span>
-                        @endforeach
+                        <!-- Post tags-->
+                        <span class="badge bg-secondary text-decoration-none link-light">{{ $post->category }}</span>
                     </header>
                     {{-- <!-- Preview image figure-->
                         <figure class="mb-4"><img class="img-fluid rounded"
@@ -112,6 +107,13 @@
                     <section class="mb-5">
                         {!! html_entity_decode($post->body) !!}
                     </section>
+                    <!-- Post tags-->
+                    @php
+                        $tags = explode(',', $post->tag);
+                    @endphp
+                    @foreach ($tags as $tag)
+                        <span class="badge bg-secondary text-decoration-none link-light">{{ $tag }}</span>
+                    @endforeach
                 </article>
             </div>
         </div>
